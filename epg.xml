@@ -1,1 +1,45 @@
-<tv generator-info-name="youtube-live-epg" generator-info-url="https://github.com/dp247/YouTubeToM3U8"/>
+<tv generator-info-name="youtube-live-epg" generator-info-url="https://github.com/dp247/YouTubeToM3U8">
+  <channel id="exptv.tt">
+    <display-name lang="en">EXP TV</display-name>
+  </channel>
+  <programme channel="exptv.tt" start="20250914200000 +0100" stop="20250914230000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250914230000 +0100" stop="20250915020000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250915020000 +0100" stop="20250915050000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250915050000 +0100" stop="20250915080000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250915080000 +0100" stop="20250915110000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250915110000 +0100" stop="20250915140000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250915140000 +0100" stop="20250915170000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250915170000 +0100" stop="20250915200000 +0100">
+    <title lang="en">EXPTV_</title>
+    <desc lang="en">EXP TV</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+</tv>
