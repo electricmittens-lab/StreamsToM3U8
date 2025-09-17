@@ -8,7 +8,7 @@ import requests
 from lxml import etree
 from bs4 import BeautifulSoup
 
-tz = pytz.timezone('Europe/London')
+tz = pytz.timezone("Europe/London")
 channels = []
 
 
@@ -79,8 +79,8 @@ def grab_youtube(url: str, channel_name, channel_id, category):
         end = stream_info.text.find(".m3u8") + 5
         tuner = 100
         while True:
-            if "https://" in stream_info.text[end - tuner: end]:
-                link = stream_info.text[end - tuner: end]
+            if "https://" in stream_info.text[end - tuner : end]:
+                link = stream_info.text[end - tuner : end]
                 start = link.find("https://")
                 end = link.find(".m3u8") + 5
 
@@ -150,7 +150,7 @@ def grab_twitch(url: str, channel_name, channel_id, category):
                 channel_id,
                 category,
                 "No description",
-                "",
+                "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg",
                 "https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4",
             )
 
@@ -159,14 +159,22 @@ def grab_twitch(url: str, channel_name, channel_id, category):
         stream_desc = soup.find("meta", property="og:description")
         stream_desc = stream_desc["content"] if stream_desc else "No description"
 
-        stream_image_url = soup.find("meta", property="og:image")
-        stream_image_url = stream_image_url["content"] if stream_image_url else ""
+        # ✅ Get real Twitch profile image
+        try:
+            avatar_resp = requests.get(
+                f"https://decapi.me/twitch/avatar/{channel_name}", timeout=10
+            )
+            if avatar_resp.status_code == 200 and avatar_resp.text.startswith("http"):
+                stream_image_url = avatar_resp.text.strip()
+            else:
+                stream_image_url = "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg"
+        except Exception:
+            stream_image_url = "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg"
 
         response = requests.get(f"https://pwn.sh/tools/streamapi.py?url={url}").json()
         url_list = response.get("urls", {})
 
         if not url_list:
-            # fallback if Twitch is offline or URL expired
             stream_url = "https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4"
         else:
             max_res_key = list(url_list)[-1]
@@ -187,7 +195,7 @@ def grab_twitch(url: str, channel_name, channel_id, category):
             channel_id,
             category,
             "No description",
-            "",
+            "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg",
             "https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4",
         )
 
@@ -235,7 +243,7 @@ with open(output_file, "w", encoding="utf-8") as out:
                 if not line.strip().startswith("#EXTM3U"):
                     out.write(line)
 
-    # Then add scraped channels with their profile image as logo
+    # Then add scraped channels
     for ch in channels:
         name, cid, category, desc, logo, url = ch
         if logo:
