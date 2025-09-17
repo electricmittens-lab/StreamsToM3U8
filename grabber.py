@@ -14,22 +14,16 @@ channels = []
 
 def generate_times(curr_dt: datetime):
     """
-Generate 3-hourly blocks of times based on a current date
-    :param curr_dt: The current time the script is executed
-    :return: A tuple that contains a list of start dates and a list of end dates
+    Generate 3-hourly blocks of times based on a current date
     """
-    # Floor the last hour (e.g. 13:54:00 -> 13:00:00) and add timezone information
     last_hour = curr_dt.replace(microsecond=0, second=0, minute=0)
     last_hour = tz.localize(last_hour)
     start_dates = [last_hour]
 
-    # Generate start times that are spaced out by three hours
     for x in range(7):
         last_hour += timedelta(hours=3)
         start_dates.append(last_hour)
 
-    # Copy everything except the first start date to a new list, then add a final end date three hours after the last
-    # start date
     end_dates = start_dates[1:]
     end_dates.append(start_dates[-1] + timedelta(hours=3))
 
@@ -38,9 +32,7 @@ Generate 3-hourly blocks of times based on a current date
 
 def build_xml_tv(streams: list) -> bytes:
     """
-Build an XMLTV file based on provided stream information
-    :param streams: List of tuples containing channel/stream name, ID and category
-    :return: XML as bytes
+    Build an XMLTV file based on provided stream information
     """
     data = etree.Element("tv")
     data.set("generator-info-name", "youtube-live-epg")
@@ -64,21 +56,21 @@ Build an XMLTV file based on provided stream information
 
             title = etree.SubElement(programme, "title")
             title.set('lang', 'en')
-            title.text = stream[3] if stream[3] != '' else f'LIVE: {stream[0]}'
+            title.text = stream[3] if stream[3] else f'LIVE: {stream[0]}'
+
             description = etree.SubElement(programme, "desc")
             description.set('lang', 'en')
-            description.text = stream[4] if stream[4] != '' else 'No description provided'
-            icon = etree.SubElement(programme, "icon")
-            icon.set('src', stream[5])
+            description.text = stream[4] if stream[4] else 'No description provided'
+
+            if stream[5]:
+                icon = etree.SubElement(programme, "icon")
+                icon.set('src', stream[5])
 
     return etree.tostring(data, pretty_print=True, encoding='utf-8')
 
 
-def grab_youtube(url: str):
-    """
-Grabs the live-streaming M3U8 file from YouTube
-    :param url: The YouTube URL of the livestream
-    """
+# --- Grabbers ---
+def grab_youtube(url: str, channel_name, channel_id, category):
     if '&' in url:
         url = url.split('&')[0]
 
@@ -87,10 +79,9 @@ Grabs the live-streaming M3U8 file from YouTube
     response = stream_info.text
     soup = BeautifulSoup(stream_info.text, features="html.parser")
 
-
     if '.m3u8' not in response or stream_info.status_code != 200:
-        print("https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4")
-        return
+        return None
+
     end = response.find('.m3u8') + 5
     tuner = 100
     while True:
@@ -102,73 +93,89 @@ Grabs the live-streaming M3U8 file from YouTube
             stream_title = soup.find("meta", property="og:title")["content"]
             stream_desc = soup.find("meta", property="og:description")["content"]
             stream_image_url = soup.find("meta", property="og:image")["content"]
-            channels.append((channel_name, channel_id, category, stream_title, stream_desc, stream_image_url))
 
-            break
+            return (
+                channel_name,
+                channel_id,
+                category,
+                stream_title,
+                stream_desc,
+                stream_image_url,
+                link[start:end],
+            )
         else:
             tuner += 5
-    print(f"{link[start: end]}")
 
-def grab_dailymotion(url: str):
-    """
-Grabs the live-streaming M3U8 file from Dailymotion at its best resolution
-    :param url: The Dailymotion URL of the livestream
-    :return:
-    """
+
+def grab_dailymotion(url: str, channel_name, channel_id, category):
     requests.packages.urllib3.disable_warnings()
     stream_info = requests.get(url, timeout=15)
-    response = stream_info.text
-    soup = BeautifulSoup(stream_info.text, features="html.parser")
-
     if stream_info.status_code != 200:
-        print("https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4")
-        return
+        return None
+
+    soup = BeautifulSoup(stream_info.text, features="html.parser")
 
     stream_title = soup.find("meta", property="og:title")["content"].split('-')[0].strip()
     stream_desc = soup.find("meta", property="og:description")["content"]
     stream_image_url = soup.find("meta", property="og:image")["content"]
-    channels.append((channel_name, channel_id, category, stream_title, stream_desc, stream_image_url))
 
-    stream_api = requests.get(f"https://www.dailymotion.com/player/metadata/video/{url.split('/')[4]}").json()['qualities']['auto'][0]['url']
+    stream_api = requests.get(
+        f"https://www.dailymotion.com/player/metadata/video/{url.split('/')[4]}"
+    ).json()['qualities']['auto'][0]['url']
+
     m3u_file = requests.get(stream_api).text.strip().split('\n')[1:]
-    best_url = sorted([[int(m3u_file[i].strip().split(',')[2].split('=')[1]), m3u_file[i + 1]] for i in range(0, len(m3u_file) - 1, 2)], key=lambda x: x[0])[-1][1].split('#')[0]
-    print(best_url)
+    best_url = sorted(
+        [[int(m3u_file[i].split(',')[2].split('=')[1]), m3u_file[i + 1]] for i in range(0, len(m3u_file) - 1, 2)],
+        key=lambda x: x[0]
+    )[-1][1].split('#')[0]
 
-def grab_twitch(url: str):
-    """
+    return (
+        channel_name,
+        channel_id,
+        category,
+        stream_title,
+        stream_desc,
+        stream_image_url,
+        best_url,
+    )
 
-    :param url:
-    :return:
-    """
+
+def grab_twitch(url: str, channel_name, channel_id, category):
     requests.packages.urllib3.disable_warnings()
     stream_info = requests.get(url, timeout=15)
-    soup = BeautifulSoup(stream_info.text, features="html.parser")
-
     if stream_info.status_code != 200:
-        print("https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4")
-        return
+        return None
+
+    soup = BeautifulSoup(stream_info.text, features="html.parser")
 
     stream_title = soup.find("meta", property="og:title")["content"].split('-')[0].strip()
     stream_desc = soup.find("meta", property="og:description")["content"]
     stream_image_url = soup.find("meta", property="og:image")["content"]
-    channels.append((channel_name, channel_id, category, stream_title, stream_desc, stream_image_url))
 
-    response = requests.get(f"https://pwn.sh/tools/streamapi.py?url={url}").json()["success"]
-    if response == "false":
-        print("https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4")
-        return
-    url_list = requests.get(f"https://pwn.sh/tools/streamapi.py?url={url}").json()["urls"]
+    url_list = requests.get(f"https://pwn.sh/tools/streamapi.py?url={url}").json().get("urls", {})
+    if not url_list:
+        return None
+
     max_res_key = list(url_list)[-1]
     stream_url = url_list.get(max_res_key)
-    print(stream_url)
 
+    return (
+        channel_name,
+        channel_id,
+        category,
+        stream_title,
+        stream_desc,
+        stream_image_url,
+        stream_url,
+    )
+
+
+# --- Main ---
 channel_name = ''
 channel_id = ''
 category = ''
 
-# Open text file and parse stream information and URL
 with open('./streams.txt', encoding='utf-8') as f:
-    print("#EXTM3U")
     for line in f:
         line = line.strip()
         if not line or line.startswith('##'):
@@ -178,23 +185,37 @@ with open('./streams.txt', encoding='utf-8') as f:
             channel_name = line[0].strip()
             channel_id = line[1].strip()
             category = line[2].strip().title()
-            print(
-                f'\n#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{channel_name}" group-title="{category}", {channel_name}')
         else:
-            if urlparse(line).netloc == 'www.youtube.com':
-                grab_youtube(line)
-            elif urlparse(line).netloc == 'www.dailymotion.com':
-                grab_dailymotion(line)
-            elif urlparse(line).netloc == 'www.twitch.tv':
-                grab_twitch(line)
+            netloc = urlparse(line).netloc
+            result = None
+            if 'youtube.com' in netloc:
+                result = grab_youtube(line, channel_name, channel_id, category)
+            elif 'dailymotion.com' in netloc:
+                result = grab_dailymotion(line, channel_name, channel_id, category)
+            elif 'twitch.tv' in netloc:
+                result = grab_twitch(line, channel_name, channel_id, category)
 
-# Time to build an XMLTV file based on stream data
+            if result:
+                channels.append(result)
+
+# --- Output M3U8 ---
+print("#EXTM3U")
+for ch in channels:
+    name, cid, category, title, desc, logo, url = ch
+    if logo:  # only include if logo exists
+        print(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{category}", {name}')
+    else:
+        print(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" group-title="{category}", {name}')
+    print(url)
+
+# --- Output XMLTV ---
 channel_xml = build_xml_tv(channels)
 with open('epg.xml', 'wb') as f:
     f.write(channel_xml)
-    f.close()
 
-# Remove temp files from project dir
+# --- Cleanup ---
 if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
-    os.system('rm watch*')
+    os.remove('temp.txt')
+    for f in os.listdir():
+        if f.startswith('watch'):
+            os.remove(f)
