@@ -50,15 +50,15 @@ def build_xml_tv(streams: list) -> bytes:
 
             title = etree.SubElement(programme, "title")
             title.set('lang', 'en')
-            title.text = stream[3] if stream[3] else f'LIVE: {stream[0]}'
+            title.text = f'LIVE: {stream[0]}'
 
             description = etree.SubElement(programme, "desc")
             description.set('lang', 'en')
-            description.text = stream[4] if stream[4] else 'No description provided'
+            description.text = stream[3] if stream[3] else 'No description provided'
 
-            if stream[5]:
+            if stream[4]:
                 icon = etree.SubElement(programme, "icon")
-                icon.set('src', stream[5])
+                icon.set('src', stream[4])
 
     return etree.tostring(data, pretty_print=True, encoding='utf-8')
 
@@ -83,7 +83,6 @@ def grab_youtube(url: str, channel_name, channel_id, category):
             start = link.find('https://')
             end = link.find('.m3u8') + 5
 
-            stream_title = soup.find("meta", property="og:title")["content"]
             stream_desc = soup.find("meta", property="og:description")["content"]
             stream_image_url = soup.find("meta", property="og:image")["content"]
 
@@ -91,7 +90,6 @@ def grab_youtube(url: str, channel_name, channel_id, category):
                 channel_name,
                 channel_id,
                 category,
-                stream_title,
                 stream_desc,
                 stream_image_url,
                 link[start:end],
@@ -107,7 +105,6 @@ def grab_dailymotion(url: str, channel_name, channel_id, category):
 
     soup = BeautifulSoup(stream_info.text, features="html.parser")
 
-    stream_title = soup.find("meta", property="og:title")["content"].split('-')[0].strip()
     stream_desc = soup.find("meta", property="og:description")["content"]
     stream_image_url = soup.find("meta", property="og:image")["content"]
 
@@ -125,7 +122,6 @@ def grab_dailymotion(url: str, channel_name, channel_id, category):
         channel_name,
         channel_id,
         category,
-        stream_title,
         stream_desc,
         stream_image_url,
         best_url,
@@ -139,7 +135,6 @@ def grab_twitch(url: str, channel_name, channel_id, category):
 
     soup = BeautifulSoup(stream_info.text, features="html.parser")
 
-    stream_title = soup.find("meta", property="og:title")["content"].split('-')[0].strip()
     stream_desc = soup.find("meta", property="og:description")["content"]
     stream_image_url = soup.find("meta", property="og:image")["content"]
 
@@ -154,7 +149,6 @@ def grab_twitch(url: str, channel_name, channel_id, category):
         channel_name,
         channel_id,
         category,
-        stream_title,
         stream_desc,
         stream_image_url,
         stream_url,
@@ -200,17 +194,16 @@ with open(output_file, "w", encoding="utf-8") as out:
     if os.path.exists(extra_file):
         with open(extra_file, "r", encoding="utf-8") as extra:
             for line in extra:
-                # skip its own #EXTM3U header if present
                 if not line.strip().startswith("#EXTM3U"):
                     out.write(line)
 
     # Then add the scraped channels
     for ch in channels:
-        name, cid, category, title, desc, logo, url = ch
+        name, cid, category, desc, logo, url = ch
         if logo:
-            out.write(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{category}", {name}\n')
+            out.write(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}", {name}\n')
         else:
-            out.write(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" group-title="{category}", {name}\n')
+            out.write(f'#EXTINF:-1 tvg-name="{name}", {name}\n')
         out.write(f"{url}\n")
 
 print(f"Merged playlist written to {output_file}")
