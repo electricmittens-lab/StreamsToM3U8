@@ -13,9 +13,6 @@ channels = []
 
 
 def generate_times(curr_dt: datetime):
-    """
-    Generate 3-hourly blocks of times based on a current date
-    """
     last_hour = curr_dt.replace(microsecond=0, second=0, minute=0)
     last_hour = tz.localize(last_hour)
     start_dates = [last_hour]
@@ -31,9 +28,6 @@ def generate_times(curr_dt: datetime):
 
 
 def build_xml_tv(streams: list) -> bytes:
-    """
-    Build an XMLTV file based on provided stream information
-    """
     data = etree.Element("tv")
     data.set("generator-info-name", "youtube-live-epg")
     data.set("generator-info-url", "https://github.com/dp247/YouTubeToM3U8")
@@ -74,10 +68,9 @@ def grab_youtube(url: str, channel_name, channel_id, category):
     if '&' in url:
         url = url.split('&')[0]
 
-    requests.packages.urllib3.disable_warnings()
     stream_info = requests.get(url, timeout=15)
     response = stream_info.text
-    soup = BeautifulSoup(stream_info.text, features="html.parser")
+    soup = BeautifulSoup(response, features="html.parser")
 
     if '.m3u8' not in response or stream_info.status_code != 200:
         return None
@@ -108,7 +101,6 @@ def grab_youtube(url: str, channel_name, channel_id, category):
 
 
 def grab_dailymotion(url: str, channel_name, channel_id, category):
-    requests.packages.urllib3.disable_warnings()
     stream_info = requests.get(url, timeout=15)
     if stream_info.status_code != 200:
         return None
@@ -141,7 +133,6 @@ def grab_dailymotion(url: str, channel_name, channel_id, category):
 
 
 def grab_twitch(url: str, channel_name, channel_id, category):
-    requests.packages.urllib3.disable_warnings()
     stream_info = requests.get(url, timeout=15)
     if stream_info.status_code != 200:
         return None
@@ -198,15 +189,31 @@ with open('./streams.txt', encoding='utf-8') as f:
             if result:
                 channels.append(result)
 
-# --- Output M3U8 ---
-print("#EXTM3U")
-for ch in channels:
-    name, cid, category, title, desc, logo, url = ch
-    if logo:  # only include if logo exists
-        print(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{category}", {name}')
-    else:
-        print(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" group-title="{category}", {name}')
-    print(url)
+# --- Output merged M3U ---
+output_file = "murdercapital.m3u"
+extra_file = "m3u.m3u"   # the extra M3U to prepend if it exists
+
+with open(output_file, "w", encoding="utf-8") as out:
+    out.write("#EXTM3U\n")
+
+    # First append the existing m3u.m3u file
+    if os.path.exists(extra_file):
+        with open(extra_file, "r", encoding="utf-8") as extra:
+            for line in extra:
+                # skip its own #EXTM3U header if present
+                if not line.strip().startswith("#EXTM3U"):
+                    out.write(line)
+
+    # Then add the scraped channels
+    for ch in channels:
+        name, cid, category, title, desc, logo, url = ch
+        if logo:
+            out.write(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{category}", {name}\n')
+        else:
+            out.write(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" group-title="{category}", {name}\n')
+        out.write(f"{url}\n")
+
+print(f"Merged playlist written to {output_file}")
 
 # --- Output XMLTV ---
 channel_xml = build_xml_tv(channels)
