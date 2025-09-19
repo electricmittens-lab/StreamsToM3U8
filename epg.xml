@@ -2,11 +2,6 @@
   <channel id="exptv.tt">
     <display-name lang="en">EXP TV</display-name>
   </channel>
-  <programme channel="exptv.tt" start="20250919180000 +0100" stop="20250919210000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
-  </programme>
   <programme channel="exptv.tt" start="20250919210000 +0100" stop="20250920000000 +0100">
     <title lang="en">LIVE: EXP TV</title>
     <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
@@ -38,6 +33,11 @@
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
   <programme channel="exptv.tt" start="20250920150000 +0100" stop="20250920180000 +0100">
+    <title lang="en">LIVE: EXP TV</title>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
+    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
+  </programme>
+  <programme channel="exptv.tt" start="20250920180000 +0100" stop="20250920210000 +0100">
     <title lang="en">LIVE: EXP TV</title>
     <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
