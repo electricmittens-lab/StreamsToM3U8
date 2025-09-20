@@ -1,0 +1,4 @@
+[YouTube Resolver] Failed for https://www.youtube.com/live/QfiX16mdJU8: [Errno 2] No such file or directory: 'yt-dlp'
+[Warning] Could not resolve YouTube URL: https://www.youtube.com/live/QfiX16mdJU8
+✅ Playlist written to streams.m3u
+✅ EPG written to epg.xml
