@@ -1,9 +1,12 @@
 #!/bin/bash
-python3 -m pip install requests
-python3 -m pip install lxml
-python3 -m pip install pytz
-python3 -m pip install beautifulsoup4
+set -euo pipefail
 
-python3 grabber.py > ./streams.m3u8
+echo "=== Installing Python dependencies ==="
+python3 -m pip install --upgrade pip
+python3 -m pip install -U yt-dlp
+python3 -m pip install requests lxml pytz beautifulsoup4
 
-echo M3U update complete.
+echo "=== Running grabber.py at $(date) ==="
+python3 grabber.py
+
+echo "=== Grabber finished at $(date) ==="
