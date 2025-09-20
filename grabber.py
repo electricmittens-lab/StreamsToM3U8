@@ -92,36 +92,33 @@ def _append_channel(name, cid, category, desc, logo, url):
 
 # -------- Grabbers --------
 def grab_youtube(url, name, cid, category):
+    """
+    Use yt-dlp to resolve YouTube live/watch URLs into a playable HLS .m3u8.
+    """
+    import subprocess
     try:
+        # Always prefer watch?v= form
+        if "/live/" in url:
+            url = url.replace("/live/", "/watch?v=")
+
+        result = subprocess.check_output(
+            ["yt-dlp", "-f", "best[ext=mp4]", "-g", url],
+            stderr=subprocess.STDOUT
+        )
+        stream_url = result.decode().strip().split("\n")[0]
+
+        # Grab meta for logo/desc
         r = requests.get(url, timeout=HTTP_TIMEOUT)
-        if r.status_code != 200 or ".m3u8" not in r.text:
-            print(f"⚠️ Skipped YouTube: {name} (no .m3u8 found)")
-            return
         soup = BeautifulSoup(r.text, "html.parser")
-
-        # naive scan for m3u8
-        end = r.text.find(".m3u8") + 5
-        tuner = 100
-        stream_url = None
-        while True:
-            if "https://" in r.text[end - tuner:end]:
-                link = r.text[end - tuner:end]
-                start = link.find("https://")
-                end2 = link.find(".m3u8") + 5
-                stream_url = link[start:end2]
-                break
-            tuner += 5
-            if tuner > 5000:
-                break
-
-        if not stream_url:
-            print(f"⚠️ Skipped YouTube: {name} (failed to extract m3u8 url)")
-            return
-
         desc = _meta(soup, "og:description", "")
         logo = _meta(soup, "og:image", "")
+
         _append_channel(name, cid, category, desc, logo, stream_url)
-        print(f"✅ YouTube: {name} (logo from og:image)")
+        print(f"✅ YouTube: {name} (resolved via yt-dlp)")
+    except subprocess.CalledProcessError as e:
+        print(f"⚠️ YouTube extractor failed for {name}:\n{e.output.decode(errors='ignore')}")
+        # If you want a fallback stream, uncomment:
+        # _append_channel(name, cid, category, "Offline", "", OFFLINE_FALLBACK)
     except Exception as e:
         print(f"⚠️ YouTube error {name}: {e}")
 
