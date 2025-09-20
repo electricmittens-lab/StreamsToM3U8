@@ -14,30 +14,11 @@ https://intergalactic.tv/show/smil:mw.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="RetroStrange TV" tvg-logo="https://retrostrange.com/wp-content/uploads/2021/01/cropped-RS-MINI-ALT.png", RetroStrange TV
 https://live.retrostrange.com/hls/stream.m3u8
 
+#EXTINF:-1 tvg-name="Classic TV Cube" tvg-logo="https://owncast.funcube.space/logo", Classic TV Cube
+https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
+
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
 
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Tavern TV" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-tavern-tv.png", TVS Tavern TV
-https://rpn.bozztv.com/gusa/gusa-tavern/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Turbo" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-turbo-network.png", TVS Turbo
-https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Drive In Movies" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-drive-in-movie.png", TVS Drive In Movies
-https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Vintage" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-vintage-network.png", TVS Vintage
-https://rpn.bozztv.com/gusa/gusa-tvsvintage/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Cartoon Network" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-cartoon-network.png", TVS Cartoon Network
-https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Main Street" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-main-street.png", TVS Main Street
-https://rpn.bozztv.com/gusa/gusa-tvsmainst/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Quiz Show Channel" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-game-show-network.png", TVS Quiz Show Channel
-https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8
-
