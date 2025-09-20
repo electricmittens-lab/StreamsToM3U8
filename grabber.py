@@ -50,7 +50,7 @@ def load_streams():
             else:
                 name, id_, category = meta[0].strip(), meta[0].strip(), "Misc"
 
-            # YouTube resolving
+            # --- Resolve YouTube links automatically ---
             if "youtube.com" in url or "youtu.be" in url:
                 resolved = resolve_youtube(url)
                 if resolved:
