@@ -18,33 +18,36 @@ https://live.retrostrange.com/hls/stream.m3u8
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
 
 #EXTINF:-1 tvg-id="ksdk" tvg-name="KSDK NBC 5 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/KSDK_5_NBC_logo.png" group-title="Local",KSDK NBC 5 (St. Louis)
-https://live-news-manifest.tubi.video/live-news/ksdk-nbc-stlouis.m3u8
+https://content.uplynk.com/channel/3c06db43d7e74d69a559cbb60b6d76fc.m3u8
 
 #EXTINF:-1 tvg-id="kmov" tvg-name="KMOV CBS 4 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/KMOV_Logo_2017.png" group-title="Local",KMOV CBS 4 (St. Louis)
-https://live-news-manifest.tubi.video/live-news/kmov-cbs-stlouis.m3u8
+https://dai.google.com/linear/hls/event/UW6H8n4oQMCbJrkzZQdHLQ/master.m3u8
 
 #EXTINF:-1 tvg-id="kdnl" tvg-name="KDNL ABC 30 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/ABC_30_KDNL_logo.png" group-title="Local",KDNL ABC 30 (St. Louis)
-https://live-news-manifest.tubi.video/live-news/kdnl-abc-stlouis.m3u8
-
-#EXTINF:-1 tvg-id="ktvi" tvg-name="KTVI FOX 2 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/KTVI_Fox_2_Now_logo.png" group-title="Local",KTVI FOX 2 (St. Louis)
-https://live-news-manifest.tubi.video/live-news/ktvi-fox-stlouis.m3u8
+https://content.uplynk.com/channel/68d1c8dcf8e249f6aa5e6c15c2f3b0ee.m3u8
 
 #EXTINF:-1 tvg-id="kplr" tvg-name="KPLR CW 11 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/KPLR_11_logo.png" group-title="Local",KPLR CW 11 (St. Louis)
-https://live-news-manifest.tubi.video/live-news/kplr-cw-stlouis.m3u8
+https://dai.google.com/linear/hls/event/oVJgqMjoSWuDgWlGElPCuA/master.m3u8
 
-#EXTINF:-1 tvg-id="ninepbs" tvg-name="Nine PBS St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Nine_PBS_logo.png" group-title="Local",Nine PBS (St. Louis)
+#EXTINF:-1 tvg-id="ktvi" tvg-name="KTVI FOX 2 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/KTVI_Fox_2_Now_logo.png" group-title="Local",KTVI FOX 2 (St. Louis)
+https://content.uplynk.com/channel/f4b01a6d4b7643e9b4f42086b52e9d53.m3u8
+
+#EXTINF:-1 tvg-id="pbs9" tvg-name="Nine PBS St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Nine_PBS_logo.png" group-title="Local",Nine PBS (St. Louis)
 https://dai2-playlistserver.aws.syncbak.com/cpl/10333/ep/48/ninepbs.m3u8
 
-#EXTINF:-1 tvg-id="metv" tvg-name="MeTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/MeTV_logo.png" group-title="Entertainment",MeTV
-https://metv.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="metv" tvg-name="MeTV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/MeTV_logo.png" group-title="Local",MeTV (St. Louis)
+https://metv-sinclair-1.vizio.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="bounce" tvg-name="Bounce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1d/Bounce_TV_logo.png" group-title="Entertainment",Bounce TV
+#EXTINF:-1 tvg-id="bounce" tvg-name="Bounce TV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1d/Bounce_TV_logo.png" group-title="Local",Bounce TV (St. Louis)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00476-bouncetv-bouncetv-xumo/playlist.m3u8
 
-#EXTINF:-1 tvg-id="comet" tvg-name="Comet TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2d/Comet_TV_logo.png" group-title="Entertainment",Comet TV
+#EXTINF:-1 tvg-id="comet" tvg-name="Comet TV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2d/Comet_TV_logo.png" group-title="Local",Comet TV (St. Louis)
 https://sinclair-comet-1.vizio.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="stadium" tvg-name="Stadium Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Stadium_logo.png" group-title="Sports",Stadium
+#EXTINF:-1 tvg-id="antenna" tvg-name="Antenna TV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f3/Antenna_TV_logo.png" group-title="Local",Antenna TV (St. Louis)
+https://dai.google.com/linear/hls/event/antenna-tv/master.m3u8
+
+#EXTINF:-1 tvg-id="stadium" tvg-name="Stadium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Stadium_logo.png" group-title="Sports",Stadium
 https://stadium.sinclairstoryline.com/hls/live/stadium.m3u8
 
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
@@ -72,4 +75,4 @@ https://rpn.bozztv.com/gusa/gusa-tvsmainst/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8
 
 #EXTINF:-1 tvg-name="EXP TV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png", EXP TV
-https://euw33.playlist.ttvnw.net/v1/playlist/CscEThbIzH8_sxSND45FJTFifc5lw9g7CEvP0-Vh0NEulaOFByPBM-xAKS_xswwEvv7EVgmLHMvzodi62afYC1A1HbBd7xXbGHW_SwaCQy2lNWJhlXm3S0egvjF1q_R9NSpF4n3ycVSe6nP5p0LaD9N-7efotJ1giV3i80z8uM_q4kRHv6nKpiebevcs8pEbG8kyjLw3UC8w__sW_UUHqtOaakF5vPPJXeObezhydAG66pyRwSbYiBa-2NNPNJ68l-qYAWj3zdOu-4dPTwooWgXUae5UeAsgIENDk6tG0Xu6M31e2m-a55CGtFMz4FMdTUe_-1bGfNTf2x8v7_WFpyDILADCvQnZYjTjN-4JI-dge57AbcafnWLdWHZiIOfv7e8GwnVpiiOp7VrzN9cFjmXfxpMkerhWGR_4VXnynhX3WOmJt6sGCPamjXF23x2jqFdYMqqsWr1G8AJZ6RWJTfQBiuoA8WCELGv2L8FL4aJUzFu52in605LKY6tqWiabp87ExtHbgSZqZRxJPz2GRsAn1OnzBTsHGGWwJGEKoGVb5Fqqf07la37D0WiEu5i7XxsMZTQO_4fPgSykfMz9E7liz1_q_k6CVAyIHVbBRXec40GLBT_s3CpdzCmR_CnHcQjbIJz7QBIM3963gdioF2DG4_hAYhMWvSwNeJlVpdG1VnzCYHhxhRdzPu49og7tuJ_-e_-ocpappn-Sgr56S7TVQXWfb-JQzfzJAFry-jD8ydDFnYMf_mBbOtao4uooifGytb4jmX7ITxoMgpW6XG0ziBmA6_t8IAEqCWV1LXdlc3QtMjCkDQ.m3u8
+https://eus21.playlist.ttvnw.net/v1/playlist/CscEXGv7XVe8Mu3MPl_zZIrYJh9PLOmAEBMcAlX6Kd5wXzScwzf4UrqJKe9kl8fuzz7v3pA_WUNAokhQLB6a8VFHfbleIknHWaDYUAzytuerpIxxFXAerSLdukAV6zGHCkLlpZbDKa8ABnjddDtv1nE1rYBZ5iC4ZbOS1H635Vejy7S8Bq_MnANpt38a77UcVuYp7WckmaBF6GOcQjAxtLjB5N8wXSXpK08DW2OOJbkPWue0-HX0kIPDxnGi1iA1stf12HoHvsiB7JznTeCN7Wrpv3DGqQfh9djlfYsEfj_C78lwXUs3j5IxC31GXEAARMia3l86_NJLi09hA2h1_lxVcz2qGGmTpLJILO5ftIZ6ag8-yVZ6Nl6Hbod8JJ7g9qDcVzaIVRONZACybS5HGxUWfhESWbvyb7_7lgOP74Kb11bqT1gWgbAiuNYSfymjw97JDCizlTv9HDPi2ChalSZsrerV_ftCJ8VmKxdGTrftbx16PjeBqcFyPmTfRaAVpD8Hcc_aRuImUKa9WqWbUFV_fr8Z2fJarIXDedXOM0nOcRNjzizO9ZRIz36Sk0zDEres24iRdyfIoacly54WiUyjit6vJ6FfSvgWhc3mR11Q3N8eY5y7ozNiFqsrbuTuXcftb_Pi9oiWta-w_yv5Kd3ULrEMBCWXTwXO6LS2Dx5jU4oIghtEhSmsMT1RN626ROfMqrQCdcxXjkZ5l_tXdhSenP6t7eyDWSmSokb6UjXMaoDhdIGr7MCQ36mjJ4COku0ghwXyCPI-nhoMlcCraNyp-d2fT-vBIAEqCWV1LXdlc3QtMjCkDQ.m3u8
