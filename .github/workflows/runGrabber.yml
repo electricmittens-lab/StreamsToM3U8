@@ -2,27 +2,33 @@ name: LinkGrabber
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
-
+    - cron: '0 */3 * * *'   # every 3 hours
   pull_request:
     branches: [ main ]
-
   workflow_dispatch:
+
 jobs:
-
   runCode:
-
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Grab Link
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Grab Link
         run: |
           git config --global user.email "dp247@hll.localhost"
           git config --global user.name "dp247"
           chmod +x exec_grabber.sh && ./exec_grabber.sh
           git add -A
-          git commit -m "Playlist updated."
+          git commit -m "Playlist updated." || echo "No changes"
           git push
