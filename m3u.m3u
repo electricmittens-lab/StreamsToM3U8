@@ -17,38 +17,11 @@ https://live.retrostrange.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
 
-#EXTINF:-1 tvg-id="ksdk" tvg-name="KSDK NBC 5 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/KSDK_5_NBC_logo.png" group-title="Local",KSDK NBC 5 (St. Louis)
-https://content.uplynk.com/channel/3c06db43d7e74d69a559cbb60b6d76fc.m3u8
+#EXTINF:-1 tvg-name="C-Town" tvg-logo="https://www.shutterstock.com/image-vector/letter-c-logo-icon-design-600nw-2491232619.jpg", C-Town
+https://anym3u8player.com/youtube.php/id/68cf022e4ab38.m3u8
 
-#EXTINF:-1 tvg-id="kmov" tvg-name="KMOV CBS 4 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/KMOV_Logo_2017.png" group-title="Local",KMOV CBS 4 (St. Louis)
-https://dai.google.com/linear/hls/event/UW6H8n4oQMCbJrkzZQdHLQ/master.m3u8
-
-#EXTINF:-1 tvg-id="kdnl" tvg-name="KDNL ABC 30 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/ABC_30_KDNL_logo.png" group-title="Local",KDNL ABC 30 (St. Louis)
-https://content.uplynk.com/channel/68d1c8dcf8e249f6aa5e6c15c2f3b0ee.m3u8
-
-#EXTINF:-1 tvg-id="kplr" tvg-name="KPLR CW 11 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/KPLR_11_logo.png" group-title="Local",KPLR CW 11 (St. Louis)
-https://dai.google.com/linear/hls/event/oVJgqMjoSWuDgWlGElPCuA/master.m3u8
-
-#EXTINF:-1 tvg-id="ktvi" tvg-name="KTVI FOX 2 St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/KTVI_Fox_2_Now_logo.png" group-title="Local",KTVI FOX 2 (St. Louis)
-https://content.uplynk.com/channel/f4b01a6d4b7643e9b4f42086b52e9d53.m3u8
-
-#EXTINF:-1 tvg-id="pbs9" tvg-name="Nine PBS St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Nine_PBS_logo.png" group-title="Local",Nine PBS (St. Louis)
-https://dai2-playlistserver.aws.syncbak.com/cpl/10333/ep/48/ninepbs.m3u8
-
-#EXTINF:-1 tvg-id="metv" tvg-name="MeTV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/MeTV_logo.png" group-title="Local",MeTV (St. Louis)
-https://metv-sinclair-1.vizio.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="bounce" tvg-name="Bounce TV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1d/Bounce_TV_logo.png" group-title="Local",Bounce TV (St. Louis)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00476-bouncetv-bouncetv-xumo/playlist.m3u8
-
-#EXTINF:-1 tvg-id="comet" tvg-name="Comet TV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2d/Comet_TV_logo.png" group-title="Local",Comet TV (St. Louis)
-https://sinclair-comet-1.vizio.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="antenna" tvg-name="Antenna TV St. Louis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f3/Antenna_TV_logo.png" group-title="Local",Antenna TV (St. Louis)
-https://dai.google.com/linear/hls/event/antenna-tv/master.m3u8
-
-#EXTINF:-1 tvg-id="stadium" tvg-name="Stadium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Stadium_logo.png" group-title="Sports",Stadium
-https://stadium.sinclairstoryline.com/hls/live/stadium.m3u8
+#EXTINF:-1 tvg-name="WCW 24/7" tvg-logo="https://image-cdn.neatoshop.com/styleimg/131366/none/purple/default/517486-20;1645961461y.jpg", WCW 24/7
+https://anym3u8player.com/youtube.php/id/68cf0112dedcc.m3u8
 
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
