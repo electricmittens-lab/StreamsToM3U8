@@ -15,7 +15,7 @@ https://intergalactic.tv/show/smil:mw.smil/playlist.m3u8
 https://live.retrostrange.com/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="Classic TV Cube" tvg-logo="https://owncast.funcube.space/logo", Classic TV Cube
-https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
+https://owncast.funcube.space/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
@@ -23,4 +23,4 @@ https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 #EXTINF:-1 tvg-name="EXP TV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png", EXP TV
-https://eun11.playlist.ttvnw.net/v1/playlist/CsgE-qi4gZJq-qvSPm1uhguWfR_mdE8SVLTqEu7L1Bpv3pGWmqmiW9jz9YkYWY70iIa-8dG703Lvom0jl3-5bfYc6I1lt2Mt3Xg8hYu74q_PlhiEcigK2wk4EZLvx9WRBQSrWwg4sob79Wg33P8zzu9QXso74714UB6HW46Y7FNM4ArCqhmiLImiRrTy231ilEX0ZFX7Yg4VNG1xAp1oXk2zCxd2yEwory6i2Dg_uDQTF8-WfMzPuqS8db6VMBc0oOCUS9NROTkBerL_BcNfPyC7jIcmdqyCg1WGhPu6tQtwQIIPS7FwqCTU5p2RN4-n-pNTeSDZCPpYOg64ITeLkeevdeis4y8P8XB_OTb6zaL9e4S39iBORo9E8-CcH-rOKYAw25JYnfTgTLWYBid61ZBxslW5zJmmmt7XdAKQ_Ym-gDFMjzTSNv2iOSOrd3CedQx6Cq1Xe4ZtEvBTZMJmFBqy-Wb1O4P1G3kpGcuph_tMY_Taf04-faqtf7SWfTKyVikA1nigw0F3s67uuCIs0oPLMP6JvXieaBsoLDmRQlRY4CwqBpUUVlSsvNpVlPnIH_iZ1B5SSt5NagUkuTV0OpXQNyQAOCzrBu3XJxyCcEmELKBT-Dnxg4x3de73FUKa-R2mf39sn3ScMMA2848DRW0M8CSQ8LhePL9sTQYfcn5XMfsUcWSNhDR0wCBXdkZ7w3EGExOr3irTmrWD6WYmO2dMooj2b8ZI0J5EaNZLDmLffk3jZOoC6CJsB50JmYAV-oXR-KQXdy2HVK8aDMqth86MZjZXlvQg2SABKglldS13ZXN0LTIwpA0.m3u8
+https://euw31.playlist.ttvnw.net/v1/playlist/CscEKQyhgYdq5MyFBysOVvRsrS-DuYqnEUjpA6sNIadsnOm3yUiYi6uuP5WdEiXzMoOVXEAEK-7Cyjy96Z0qFxZZIQQA18CGryAahWOwPwfj0h-cugmsC13nkZss8Jr1bMGqxx2Aar7HLyXtpFGEBnZwtZlHtyS-dzn3817cYYBdAh7Dte2AdPtoJY26-wBSI_STW2kdFbseSKhHrxH_e0PxjNbR1_GTRHrbDI2plWqel9u6usttW7PNt5XDZFYOLlDuaZL5wkZ39Xdt6zTisZDeJ0bMdzX_dr1GY9y_J-I0bo0z2NJty6Gkz2qcpT4vFj3kYVgoqxXeA8Vlp00wxdKTnwDfsf3ZMe3D_RP2JioRDhkmGe7_ntpVodiWE7ATqFrvFp3MPzB401rw26lkx2pwg4n78HjMdj7wr1JhDJ1TZjwpKoqcdXjFHjC2ltXpPYtWQGAsSH_nXcAZxnox0xsp5FG7cA7RNjhKNdjcORYMjf0n5D_zWFYJm90QF9faNXU5ul5qbHe3f0O8PyO7xDzzHpAprw1hcvsciMkT5rNlKso1aVJEgbbNGpuDtdOpXBIPx_wMtgW7eBXOEHaXRnq4-E80yMGzFwq5mVHoavioEyR1gT-wCcBz2CenbnLd5ixprWY8fbpz2LS47Vwxvwxg4qmAd2TxmeglIgym1a51nXwRikI23OxCRhN5C--ZGQxtpXLMwm2Lfu1pwxK4xjrPbseVbZnU5AceKzv19ZEpjxoOrrppVFr5FMncSuqGkPM0h7_V3Rx_0xoM8YoqRFHTvX3H_57PIAEqCWV1LXdlc3QtMjCkDQ.m3u8
