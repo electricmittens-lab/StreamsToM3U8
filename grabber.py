@@ -4,7 +4,7 @@ import subprocess
 from lxml import etree
 
 # -------- Settings --------
-OUTPUT_M3U = "streams.m3u"
+OUTPUT_M3U = "murdercapital.m3u"   # final playlist filename
 EXTRA_FILE = "streams.txt"
 # --------------------------
 
@@ -14,8 +14,8 @@ channels = []  # list of {"name","id","category","url"}
 # --- YOUTUBE RESOLVER ---
 def resolve_youtube(url: str) -> str | None:
     """
-    Resolve a YouTube watch/live URL into a single best-quality HLS URL.
-    Returns one URL string or None.
+    Resolve a YouTube live/watch URL into a best-quality HLS stream.
+    Returns the m3u8 URL or None if not live.
     """
     try:
         print(f"[YouTube Resolver] Resolving {url} ...")
@@ -24,8 +24,12 @@ def resolve_youtube(url: str) -> str | None:
             stderr=subprocess.STDOUT
         )
         stream_url = result.decode().strip().split("\n")[0]
-        print(f"[YouTube Resolver] Found URL: {stream_url[:60]}...")
-        return stream_url
+        if stream_url:
+            print(f"[YouTube Resolver] Found URL: {stream_url[:60]}...")
+            return stream_url
+        else:
+            print("[YouTube Resolver] No playable stream (offline?)")
+            return None
     except Exception as e:
         print(f"[YouTube Resolver] Failed: {e}")
         return None
@@ -50,13 +54,14 @@ def load_streams():
             else:
                 name, id_, category = meta[0].strip(), meta[0].strip(), "Misc"
 
-            # --- Resolve YouTube links automatically ---
+            # Resolve YouTube live links
             if "youtube.com" in url or "youtu.be" in url:
                 resolved = resolve_youtube(url)
                 if resolved:
                     url = resolved
                 else:
-                    print(f"[Warning] Could not resolve YouTube URL: {url}")
+                    print(f"[Warning] Skipping offline YouTube: {url}")
+                    continue
 
             channels.append({
                 "name": name,
