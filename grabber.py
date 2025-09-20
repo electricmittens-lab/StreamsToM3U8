@@ -1,82 +1,102 @@
-#! /usr/bin/python3
+#!/usr/bin/env python3
 import os
-import re
-from datetime import datetime, timedelta
-from urllib.parse import urlparse, parse_qs
-
-import pytz
+import subprocess
 import requests
 from lxml import etree
 from bs4 import BeautifulSoup
 
 # -------- Settings --------
-tz = pytz.timezone("Europe/London")
-EXTRA_M3U = "m3u.m3u"         # prepended first if present
-OUTPUT_M3U = "murdercapital.m3u"
-EPG_XML = "epg.xml"
-TWITCH_FALLBACK_LOGO = "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg"
-OFFLINE_FALLBACK = "https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4"
-HTTP_TIMEOUT = 15
-HEADERS = {
-    # Pretend to be a normal desktop browser so sites return full HTML
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    )
-}
+OUTPUT_M3U = "streams.m3u"
+EXTRA_FILE = "streams.txt"
 # --------------------------
 
-channels = []  # list[dict]: {"name","id","category","desc","logo","url"}
+channels = []  # list[dict]: {"name","id","category","url"}
 
 
-def generate_times(curr_dt: datetime):
-    """Return 3-hourly start/stop times (XMLTV)."""
-    last_hour = curr_dt.replace(microsecond=0, second=0, minute=0)
-    last_hour = tz.localize(last_hour)
-    start_dates = [last_hour]
-    for _ in range(7):
-        last_hour += timedelta(hours=3)
-        start_dates.append(last_hour)
-    end_dates = start_dates[1:]
-    end_dates.append(start_dates[-1] + timedelta(hours=3))
-    return start_dates, end_dates
-
-
-def build_xml_tv(streams: list) -> bytes:
+# --- YOUTUBE RESOLVER ---
+def resolve_youtube(url: str) -> str:
     """
-    streams: list of dicts with keys: name, id, category, desc, logo, url
+    Use yt-dlp to resolve a YouTube watch/live URL into a direct m3u8 stream URL.
+    Returns None if resolution fails.
     """
-    data = etree.Element("tv")
-    data.set("generator-info-name", "youtube-live-epg")
-    data.set("generator-info-url", "https://github.com/dp247/YouTubeToM3U8")
+    try:
+        result = subprocess.check_output(
+            ["yt-dlp", "-g", url],
+            stderr=subprocess.DEVNULL
+        )
+        urls = result.decode().strip().split("\n")
+        if urls:
+            return urls[0]  # first stream link is usually best
+    except Exception as e:
+        print(f"[YouTube Resolver] Failed for {url}: {e}")
+    return None
 
-    for s in streams:
-        channel = etree.SubElement(data, "channel")
-        channel.set("id", s.get("id", s["name"]))
-        name = etree.SubElement(channel, "display-name")
-        name.set("lang", "en")
-        name.text = s["name"]
 
-        dt_format = "%Y%m%d%H%M%S %z"
-        start_dates, end_dates = generate_times(datetime.now())
-        for idx, val in enumerate(start_dates):
-            programme = etree.SubElement(data, "programme")
-            programme.set("channel", s.get("id", s["name"]))
-            programme.set("start", val.strftime(dt_format))
-            programme.set("stop", end_dates[idx].strftime(dt_format))
+# --- LOAD STREAMS.TXT ---
+def load_streams():
+    global channels
+    if not os.path.exists(EXTRA_FILE):
+        print(f"[Error] {EXTRA_FILE} not found")
+        return
+    with open(EXTRA_FILE, "r", encoding="utf-8") as f:
+        lines = [l.strip() for l in f if l.strip()]
+    for i in range(0, len(lines), 2):
+        try:
+            meta = lines[i].split("||")
+            url = lines[i + 1].strip()
+            if len(meta) >= 3:
+                name, id_, category = [m.strip() for m in meta[:3]]
+            else:
+                name, id_, category = meta[0].strip(), meta[0].strip(), "Misc"
 
-            title = etree.SubElement(programme, "title")
-            title.set("lang", "en")
-            title.text = f"LIVE: {s['name']}"
+            # YouTube resolving
+            if "youtube.com" in url or "youtu.be" in url:
+                resolved = resolve_youtube(url)
+                if resolved:
+                    url = resolved
+                else:
+                    print(f"[Warning] Could not resolve YouTube URL: {url}")
 
-            description = etree.SubElement(programme, "desc")
-            description.set("lang", "en")
-            description.text = s.get("desc") or "No description provided"
+            channels.append({
+                "name": name,
+                "id": id_,
+                "category": category,
+                "url": url
+            })
+        except Exception as e:
+            print(f"[Error] parsing streams.txt entry: {e}")
 
-            logo = s.get("logo")
-            if logo:
-                icon = etree.SubElement(programme, "icon")
-                icon.set("src", logo)
 
-    return etree.tostring(data, pretty_print=True)
+# --- BUILD M3U ---
+def build_m3u():
+    lines = ["#EXTM3U"]
+    for ch in channels:
+        if not ch["url"]:
+            continue
+        lines.append(
+            f'#EXTINF:-1 tvg-id="{ch["id"]}" group-title="{ch["category"]}", {ch["name"]}'
+        )
+        lines.append(ch["url"])
+    with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"✅ Playlist written to {OUTPUT_M3U}")
+
+
+# --- OPTIONAL: EPG (XML Skeleton) ---
+def build_epg():
+    root = etree.Element("tv")
+    for ch in channels:
+        ch_el = etree.SubElement(root, "channel", id=ch["id"])
+        etree.SubElement(ch_el, "display-name").text = ch["name"]
+
+    xml = etree.tostring(root, pretty_print=True, encoding="unicode")
+    with open("epg.xml", "w", encoding="utf-8") as f:
+        f.write(xml)
+    print("✅ EPG written to epg.xml")
+
+
+# --- MAIN ---
+if __name__ == "__main__":
+    load_streams()
+    build_m3u()
+    build_epg()
