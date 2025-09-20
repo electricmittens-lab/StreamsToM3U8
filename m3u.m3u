@@ -17,12 +17,6 @@ https://live.retrostrange.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
 
-#EXTINF:-1 tvg-name="C-Town" tvg-logo="https://www.shutterstock.com/image-vector/letter-c-logo-icon-design-600nw-2491232619.jpg", C-Town
-https://anym3u8player.com/youtube.php/id/68cf022e4ab38.m3u8
-
-#EXTINF:-1 tvg-name="WCW 24/7" tvg-logo="https://image-cdn.neatoshop.com/styleimg/131366/none/purple/default/517486-20;1645961461y.jpg", WCW 24/7
-https://anym3u8player.com/youtube.php/id/68cf0112dedcc.m3u8
-
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 
