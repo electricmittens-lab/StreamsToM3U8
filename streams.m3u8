@@ -1,5 +1,5 @@
 [YouTube Resolver] Resolving https://www.youtube.com/live/QfiX16mdJU8 ...
 [YouTube Resolver] Failed: Command '['yt-dlp', '-f', 'best', '-g', 'https://www.youtube.com/live/QfiX16mdJU8']' returned non-zero exit status 1.
-[Warning] Could not resolve YouTube URL: https://www.youtube.com/live/QfiX16mdJU8
-✅ Playlist written to streams.m3u
+[Warning] Skipping offline YouTube: https://www.youtube.com/live/QfiX16mdJU8
+✅ Playlist written to murdercapital.m3u
 ✅ EPG written to epg.xml
