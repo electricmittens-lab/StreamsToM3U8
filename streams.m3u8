@@ -1,5 +1,5 @@
-[YouTube Resolver] Resolving https://www.youtube.com/watch?v=QfiX16mdJU8 ...
-[YouTube Resolver] Failed: Command '['yt-dlp', '-f', 'best', '-g', 'https://www.youtube.com/watch?v=QfiX16mdJU8']' returned non-zero exit status 1.
-[Warning] Skipping offline YouTube: https://www.youtube.com/watch?v=QfiX16mdJU8
-✅ Playlist written to murdercapital.m3u
+   → Twitch avatar via decapi: exptv_
+✅ Twitch: EXP TV (logo for @exptv_)
+⚠️ Skipped YouTube: Chatterbox FM (no .m3u8 found)
+✅ Merged playlist written to murdercapital.m3u
 ✅ EPG written to epg.xml
