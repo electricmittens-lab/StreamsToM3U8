@@ -79,4 +79,4 @@ def build_xml_tv(streams: list) -> bytes:
                 icon = etree.SubElement(programme, "icon")
                 icon.set("src", logo)
 
-    return etree.tostring(data, pretty_print=True
+    return etree.tostring(data, pretty_print=True)
