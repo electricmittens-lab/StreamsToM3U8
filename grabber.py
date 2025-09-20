@@ -1,35 +1,34 @@
 #!/usr/bin/env python3
 import os
 import subprocess
-import requests
 from lxml import etree
-from bs4 import BeautifulSoup
 
 # -------- Settings --------
 OUTPUT_M3U = "streams.m3u"
 EXTRA_FILE = "streams.txt"
 # --------------------------
 
-channels = []  # list[dict]: {"name","id","category","url"}
+channels = []  # list of {"name","id","category","url"}
 
 
 # --- YOUTUBE RESOLVER ---
-def resolve_youtube(url: str) -> str:
+def resolve_youtube(url: str) -> str | None:
     """
-    Use yt-dlp to resolve a YouTube watch/live URL into a direct m3u8 stream URL.
-    Returns None if resolution fails.
+    Resolve a YouTube watch/live URL into a single best-quality HLS URL.
+    Returns one URL string or None.
     """
     try:
+        print(f"[YouTube Resolver] Resolving {url} ...")
         result = subprocess.check_output(
-            ["yt-dlp", "-g", url],
-            stderr=subprocess.DEVNULL
+            ["yt-dlp", "-f", "best", "-g", url],
+            stderr=subprocess.STDOUT
         )
-        urls = result.decode().strip().split("\n")
-        if urls:
-            return urls[0]  # first stream link is usually best
+        stream_url = result.decode().strip().split("\n")[0]
+        print(f"[YouTube Resolver] Found URL: {stream_url[:60]}...")
+        return stream_url
     except Exception as e:
-        print(f"[YouTube Resolver] Failed for {url}: {e}")
-    return None
+        print(f"[YouTube Resolver] Failed: {e}")
+        return None
 
 
 # --- LOAD STREAMS.TXT ---
@@ -40,10 +39,12 @@ def load_streams():
         return
     with open(EXTRA_FILE, "r", encoding="utf-8") as f:
         lines = [l.strip() for l in f if l.strip()]
+
     for i in range(0, len(lines), 2):
         try:
             meta = lines[i].split("||")
             url = lines[i + 1].strip()
+
             if len(meta) >= 3:
                 name, id_, category = [m.strip() for m in meta[:3]]
             else:
@@ -63,6 +64,7 @@ def load_streams():
                 "category": category,
                 "url": url
             })
+
         except Exception as e:
             print(f"[Error] parsing streams.txt entry: {e}")
 
@@ -82,7 +84,7 @@ def build_m3u():
     print(f"✅ Playlist written to {OUTPUT_M3U}")
 
 
-# --- OPTIONAL: EPG (XML Skeleton) ---
+# --- BUILD EPG ---
 def build_epg():
     root = etree.Element("tv")
     for ch in channels:
