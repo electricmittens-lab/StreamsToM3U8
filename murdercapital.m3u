@@ -17,12 +17,6 @@ https://live.retrostrange.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
 
-#EXTINF:-1 tvg-name="C-Town" tvg-logo="https://www.shutterstock.com/image-vector/letter-c-logo-icon-design-600nw-2491232619.jpg", C-Town
-https://anym3u8player.com/youtube.php/id/68cf022e4ab38.m3u8
-
-#EXTINF:-1 tvg-name="WCW 24/7" tvg-logo="https://image-cdn.neatoshop.com/styleimg/131366/none/purple/default/517486-20;1645961461y.jpg", WCW 24/7
-https://anym3u8player.com/youtube.php/id/68cf0112dedcc.m3u8
-
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 
@@ -48,4 +42,4 @@ https://rpn.bozztv.com/gusa/gusa-tvsmainst/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8
 
 #EXTINF:-1 tvg-name="EXP TV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png", EXP TV
-https://euw31.playlist.ttvnw.net/v1/playlist/CsgEzrguTGmqqzFx1l_ut1maNmGlgbNJCC8GFUYYnxyWmWLyFDajJVain9mjswv0eH5QHtAokalOwjskYEajtt37O-NeVj7Fwr3wm6EAkJ5QfRuAJlGz1JK38PL2wV_xTyGqrSNgpVlYUPDByVPN6gs-h8j4_uHKqm2wG9ow89J4VKSgTXXaVo23p4WQ1gasAEZelMte36SbhOT0OMe9YLMXtj_i9ygzSj1RzX_g2QWhCbogcUsYgS2vUaeHbsg-x09ChuGfSqPPBYbzFUyS9Mw_DqPNffyjL_9EdhdB68qUplw4YOa4CqTRyRzd4lpIdNZmEOUWyW9_lvr8doUybdpjebGJcJrEeSuSZRqo_CcHOSTUYp08-TsubtCftiJnAmgFAO_Yaj_fHbYqazg580Y7JfJkoq9ZyOHPZwswp5OyE_6dhRe0Z6CUbFFKWJfgncXraFOTg0wgmpWAGJUBIGyl-sJPUH4flXYXnUyAafMFJcMxIJs8z6iwBI5Z0Mhb5-wiy44EaJl5XgxsWuj9ybiBxuUoT8F1tRA8V1-lKqfMfxix0OFwSkl-33if_cK_OfyJ88VCMCLQCofmKVaTmm_5a179VOAmzx3wOmcFNqo01edZ2aI5W72sw_o0vCIfpgB8ZmhLeyEC8V_jNwZaSFB3dW-4akAjdY2vWGbHr4Z8F15Gpu2DZanD7dwvongrbJVpoFjjYidVicEi0HAHxohvL5eAHJswJVQSKLgNHir0LzV_Y-2G22ePIXRsoJ4tUAfMHCrSVVpX3yEaDP7Sus3s6y3n4EDVJSABKglldS13ZXN0LTIwpA0.m3u8
+https://euw33.playlist.ttvnw.net/v1/playlist/CsgE7VyMrlV1iLHJkxfurBW7-eBbiqNi5_qFQs5Ftw9uftGJWUgc6RMney3V-mMWvScoOIhLvlLKUzZmnLlZeD5Nscr1oeeZvzNHMzZRkYapfq0IT6QyuEDevevORvGM9Y2OMddqFy7I-by-5pmiZQCcw-kr2J17PuNC01ZieSSGNZTdVaWv9nFeLaozjj3bnp0E3dHKlstwyRwS1DHjqkDjrhFxh8oEDqQLuiYNaTGvZMNvvTaI0PSBv8LKILCy8YnrXSK7C5jiioNc0kybdD3YvbTrlVPmnj2qJtV_ER8TV-ZlRBHENLUNw7JRV34x9YY92pIhqJ6XbHPAdwcEjNaVadwn_XNxzdUyYruLldUPty7cp0UQje8dtv1PaispWYgwlT7Eoso5wdLVcGOpJOqnWi7_5Gn1pQa_I0OoqY29-MFDaxGgqyd0eKFFY_0-nqvtYnyWcteKnyqV6OOl1ubnWMlM4ja2cbETfJecgSPKBDVrl7fzIVib3zeuCkqQIkCFt5hQxFYzBsOrkV593SLfEqD88IClK1cWIhUtkho9NTUbvVJTrN4SYAvYv6owCK4Ce2p20yGRfRTtZXdmh0aAr7JWiNoorP1PYBS1pbGw4_lRgaF2sDfFPCQkIlNFgELYIi4plg_deY06sBknHLbv_f4I9s9MRE7x2T5bS_8lUTaww4gRe3VpphhVDV8rKnMTxyXfEvGAEHemKeqVQ0blhkgvjtoK4rn6jiNfir2x8opCgniKNLYRN9pchH606BFs_isCXwUobpsaDLpgOSti9Fwep2ya8SABKglldS13ZXN0LTIwpA0.m3u8
