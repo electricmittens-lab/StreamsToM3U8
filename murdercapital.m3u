@@ -14,32 +14,13 @@ https://intergalactic.tv/show/smil:mw.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="RetroStrange TV" tvg-logo="https://retrostrange.com/wp-content/uploads/2021/01/cropped-RS-MINI-ALT.png", RetroStrange TV
 https://live.retrostrange.com/hls/stream.m3u8
 
+#EXTINF:-1 tvg-name="Classic TV Cube" tvg-logo="https://owncast.funcube.space/logo", Classic TV Cube
+https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
+
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
 
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Tavern TV" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-tavern-tv.png", TVS Tavern TV
-https://rpn.bozztv.com/gusa/gusa-tavern/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Turbo" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-turbo-network.png", TVS Turbo
-https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Drive In Movies" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-drive-in-movie.png", TVS Drive In Movies
-https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Vintage" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-vintage-network.png", TVS Vintage
-https://rpn.bozztv.com/gusa/gusa-tvsvintage/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Cartoon Network" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-cartoon-network.png", TVS Cartoon Network
-https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Main Street" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-main-street.png", TVS Main Street
-https://rpn.bozztv.com/gusa/gusa-tvsmainst/index.m3u8
-
-#EXTINF:-1 tvg-name="TVS Quiz Show Channel" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-game-show-network.png", TVS Quiz Show Channel
-https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8
-
 #EXTINF:-1 tvg-name="EXP TV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png", EXP TV
-https://euw13.playlist.ttvnw.net/v1/playlist/CscEyJRa3dIVAl57KMrrXTHyRi_Nb2zmvmFiYAr-I8Am_4LswHvD0cRmIv_F8qoXyC7lQY1H87Jv0FfijqEcdcB_x1OlullBPyPQij6j0G-aEhROTooH2AkHhcne-fesizDpiT4P4mOorBy4c_HxuSKXMbc8FP7gASEUlI0d9MQ42p92FSgB3PvA4XuO-dZIEgydIOuivIeOg-j_JWDE30pzYSWkp9DNhLm7543owT9ClFNzFUNPW6jUt40v1zP62YaVdz6bsSN8Y14BVIsakAyxZvri3A-UAm2CwvsT-gWMLzey_PBqYNEkFVzCyuNOzsDQWr9PnWnWDIgZ-Nd_DVExPG3meVI3nijuURBZNvJzqjFlsJRGrxnG37S416IruiHdgxZ8iAmnrDAl-EpLCtxSAsArUdt9TU96YPF4L7w7O0VRXz2FMEKTxqtMMXQnUbEZjdBrfdLmrOS-ocEDlNJBEw2IP4eR7AeNwo_JANzzBnEDEya-gqcMoRfbAlT_9Vvf61bIR9mLtGdhRtxbgPmuCAVIEwgAjkBfKZtgELD53HhjleUxUBnnJakI0jjTpgXKjIM4hZiwF64K470nfElxA7BJCGw7Q1oTTi0oPJrf2_I9ZEyTynsVTMw7zmi7t2oHprfjiOmCCEd6x4VvfOP8DnXfvHGfj9IQ4rAfGKG-WfTgWbbRzmRMhq_1MHPTDn_-S5RHDY08ppis4X5NYKcGQBWkva3Axy6D6M83N0PSZeCoxaJfnrjz78I8w-8PybhasbAm3V_yhBoM6dv3cgVoNB93W64FIAEqCWV1LXdlc3QtMjCkDQ.m3u8
+https://eun11.playlist.ttvnw.net/v1/playlist/CsgE-qi4gZJq-qvSPm1uhguWfR_mdE8SVLTqEu7L1Bpv3pGWmqmiW9jz9YkYWY70iIa-8dG703Lvom0jl3-5bfYc6I1lt2Mt3Xg8hYu74q_PlhiEcigK2wk4EZLvx9WRBQSrWwg4sob79Wg33P8zzu9QXso74714UB6HW46Y7FNM4ArCqhmiLImiRrTy231ilEX0ZFX7Yg4VNG1xAp1oXk2zCxd2yEwory6i2Dg_uDQTF8-WfMzPuqS8db6VMBc0oOCUS9NROTkBerL_BcNfPyC7jIcmdqyCg1WGhPu6tQtwQIIPS7FwqCTU5p2RN4-n-pNTeSDZCPpYOg64ITeLkeevdeis4y8P8XB_OTb6zaL9e4S39iBORo9E8-CcH-rOKYAw25JYnfTgTLWYBid61ZBxslW5zJmmmt7XdAKQ_Ym-gDFMjzTSNv2iOSOrd3CedQx6Cq1Xe4ZtEvBTZMJmFBqy-Wb1O4P1G3kpGcuph_tMY_Taf04-faqtf7SWfTKyVikA1nigw0F3s67uuCIs0oPLMP6JvXieaBsoLDmRQlRY4CwqBpUUVlSsvNpVlPnIH_iZ1B5SSt5NagUkuTV0OpXQNyQAOCzrBu3XJxyCcEmELKBT-Dnxg4x3de73FUKa-R2mf39sn3ScMMA2848DRW0M8CSQ8LhePL9sTQYfcn5XMfsUcWSNhDR0wCBXdkZ7w3EGExOr3irTmrWD6WYmO2dMooj2b8ZI0J5EaNZLDmLffk3jZOoC6CJsB50JmYAV-oXR-KQXdy2HVK8aDMqth86MZjZXlvQg2SABKglldS13ZXN0LTIwpA0.m3u8
