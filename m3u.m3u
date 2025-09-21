@@ -22,3 +22,9 @@ https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/
 
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
+
+#EXTINF:-1 tvg-name="Nicks Picks" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854707/nickpicks.jpg", Nicks Picks
+https://stream-cdn-iad3.vaughnsoft.net/play/live_nickpicks.flv
+
+#EXTINF:-1 tvg-name="Nicktoons TV" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285492/nicktoonstv.jpg", Nicktoons TV
+https://stream-cdn-iad3.vaughnsoft.net/play/live_nicktoonstv.flv
