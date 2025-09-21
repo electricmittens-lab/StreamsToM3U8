@@ -28,3 +28,7 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_nickpicks.flv
 
 #EXTINF:-1 tvg-name="Nicktoons TV" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285492/nicktoonstv.jpg", Nicktoons TV
 https://stream-cdn-iad3.vaughnsoft.net/play/live_nicktoonstv.flv
+
+#EXTINF:-1 tvg-name="BBC 6 Music" tvg-logo="https://e7.pngegg.com/pngimages/972/242/png-clipart-bbc-radio-6-music-logo-radio-logos.png", BBC 6 Music
+https://lsn.lv/bbcradio.m3u8?station=bbc_6music%22&bitrate=320000%22
+
