@@ -17,5 +17,5 @@ http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.
 #EXTINF:-1 tvg-name="Soma FM Groove Salad" tvg-logo="https://api.somafm.com/logos/256/groovesalad256.png", Soma FM Groove Salad
 https://hls.somafm.com/hls/groovesalad/320k/program.m3u8
 
-#EXTINF:-1 tvg-name="KDHX" tvg-logo="https://streamurl.link/images/broadcasts/c577827.webp", KDHX
+#EXTINF:-1 tvg-name="KDHX" tvg-logo="https://kdhx.org/images/kdhx-logo.png", KDHX
 https://radiorethink.broadcasttool.stream/eclectic-high
