@@ -2,44 +2,44 @@
   <channel id="exptv.tt">
     <display-name lang="en">EXP TV</display-name>
   </channel>
-  <programme channel="exptv.tt" start="20250923190000 +0100" stop="20250923220000 +0100">
+  <programme channel="exptv.tt" start="20250923200000 +0100" stop="20250923230000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250923220000 +0100" stop="20250924010000 +0100">
+  <programme channel="exptv.tt" start="20250923230000 +0100" stop="20250924020000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924010000 +0100" stop="20250924040000 +0100">
+  <programme channel="exptv.tt" start="20250924020000 +0100" stop="20250924050000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924040000 +0100" stop="20250924070000 +0100">
+  <programme channel="exptv.tt" start="20250924050000 +0100" stop="20250924080000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924070000 +0100" stop="20250924100000 +0100">
+  <programme channel="exptv.tt" start="20250924080000 +0100" stop="20250924110000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924100000 +0100" stop="20250924130000 +0100">
+  <programme channel="exptv.tt" start="20250924110000 +0100" stop="20250924140000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924130000 +0100" stop="20250924160000 +0100">
+  <programme channel="exptv.tt" start="20250924140000 +0100" stop="20250924170000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924160000 +0100" stop="20250924190000 +0100">
+  <programme channel="exptv.tt" start="20250924170000 +0100" stop="20250924200000 +0100">
     <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">EXP TV</desc>
+    <desc lang="en">Twitch is the world's leading video platform and community for gamers.</desc>
     <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png"/>
   </programme>
 </tv>
