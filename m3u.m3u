@@ -12,5 +12,7 @@ https://live.retrostrange.com/hls/stream.m3u8
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/5600de87-8cb3-4dea-92cf-0444252535ba/0.m3u8
 
 #EXTINF:-1 tvg-name="BBC 6 Music" tvg-logo="https://e7.pngegg.com/pngimages/972/242/png-clipart-bbc-radio-6-music-logo-radio-logos.png", BBC 6 Music
-https://lsn.lv/bbcradio.m3u8?station=bbc_6music%22&bitrate=320000%22
+http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8
 
+#EXTINF:-1 tvg-name="Soma FM Groove Salad" tvg-logo="https://api.somafm.com/logos/256/groovesalad256.png", Soma FM Groove Salad
+https://hls.somafm.com/hls/groovesalad/320k/program.m3u8
