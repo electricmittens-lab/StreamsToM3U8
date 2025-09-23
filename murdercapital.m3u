@@ -18,19 +18,13 @@ https://live.retrostrange.com/hls/stream.m3u8
 https://owncast.funcube.space/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
-https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/61651d3d-9b1a-4522-a1e0-fa71a726c973/1.m3u8
+https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/5600de87-8cb3-4dea-92cf-0444252535ba/0.m3u8
 
 #EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-
-#EXTINF:-1 tvg-name="Nicks Picks" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854707/nickpicks.jpg", Nicks Picks
-https://stream-cdn-iad3.vaughnsoft.net/play/live_nickpicks.flv
-
-#EXTINF:-1 tvg-name="Nicktoons TV" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285492/nicktoonstv.jpg", Nicktoons TV
-https://stream-cdn-iad3.vaughnsoft.net/play/live_nicktoonstv.flv
 
 #EXTINF:-1 tvg-name="BBC 6 Music" tvg-logo="https://e7.pngegg.com/pngimages/972/242/png-clipart-bbc-radio-6-music-logo-radio-logos.png", BBC 6 Music
 https://lsn.lv/bbcradio.m3u8?station=bbc_6music%22&bitrate=320000%22
 
 #EXTINF:-1 tvg-name="EXP TV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png", EXP TV
-https://euw12.playlist.ttvnw.net/v1/playlist/CsgEXF_bKW1-YRL9U_2wlGjoJ4DGUmAUmKmkiaOdjQXMufniVIy9PmnZZNctXiVkHYWOy5BWISI8I0NRlfFpYiOn5LopbrdVOmNy4vgwlo-EkornWOmPDk9LXc9kD6aFaT_qRpqTHfEBN0Xnn-4dUqSMXFqF3llDUos-Rh0YhHzc3N4_Yt0hZ3D7jHpGqL5pfGqCD1icFA3b99dDSD5yzO13Szzyykj9iCAPU3uYf6OBEoe7bEtNb-73K0P5d7Cm_PTp-Hxln-h6PevDAX664V_VvqBbBHEKWUsBLpsTLVK_4EiRNij-77DzoHGpSdsVO-HgsrunF67YYbpAXfGbfz56ilakL5ld6oLa_cwT7JHlukIfsFUnHg0MCu0ZxMGYS8SK38t8ASHUQfRYgqAcJSSN8bwrJ4hB72HwkU_Hlxk3FyTrP2UjKrFcGTSY6EQyDVB8D6wUi6TpUK8MtiIQoC1D2js8oEaCel--bvNP-qDcTm2IhDk9UN41I_EEf0kHHaqaesGNx8LAtbI17uf8v4ow9TBhYT-jboGX4YTF19GF6B6YT2FchP8fG13kSOwBIqmSetxwjrlQgOG724nCYxm5BQ8KJrGKehLxuQmeHHkl-uQNHA7Ybk4NpvVp3ZxKXGDrhd013BSh2FA8tYLHkajkbuqEsjS7k59n94E5RQ0XMjTJZzGSABEdBEBiSF8Z6U32Kp5rUFKZbRBA5oVl8qKhbibTGd5At1CuCiUQwaDTjG8ZLn139YTivwQEdSGPROPfpq-TklmCAjAaDF66nKnE8NONy_wpiiABKglldS13ZXN0LTIwpw0.m3u8
+https://euc12.playlist.ttvnw.net/v1/playlist/CsgEDXO_ViBpCnFs-qYzNa3jobS1Zqsf2E8DYxMmJyPEUJMDAz3JfVyVrrXnC3Fea2hpHsYCXCtVhLwWmtUQaLi6owJH2BRGiCFgKu5k76ouuFCVdj9JHIYHCOeVzbZ4M4yd3Ordk58SoAuhhVNydhKHiJQJ2_B1x8xq5-QOiYHRGEpSRpLmCb5f_KWPVoNukQdLxPM_QGKnz3pm_osgxofOKNQ74K3_SAAR4tEkf5LaaSjR5Pd5RN-2UFeRN9qrkHBVHbTeCpRkOPI3U-rKl_zfAx6l-I_9WLtv_LPzqd-d2VZNL0-TLk08T-rrRLiAwGbqvbPcMKxAe1yUNpOcaGebuyl3RHjUGX0lzW759_qLPOVFl_84ZnMAKDjdJAdVaPmkgtBLXs_-_WqJnbILvKeKjxI0Z0ADRvhxKCTcvrpNQJeX5kJZ0euw9ep-RMkNilBa9yd-6Pr504Epk9rpjgnFcPqIojfXnz_2WmJk1rM4ed0cosh0zxTYQk2MP5_YV-ziWN9oIzapbrUORsjBcIZ6mKQI2SNhb-MeQRtrui6pALfubSvTXR8Gzjg8Lp2L4hPSMiFtVe2y98g8zsxXSDqEa0wcI5pE4T7xOm6dorXyXf2rU9mZp3cFOkn595y1nSO8SVHaeyPu76ZELi2S0y6ynXvyD_EGFrIbo8CpKiEBB_VC3Q9h6JZTcCtModalgqgyIvdYFBLRYklihpRZaGTCC0IvjJCas-5j87xjDvKz14X2zsFs3c8QpyT6vvUXbPEtvSrgFZokffMaDBv1_j2HGtqxJW4MViABKglldS13ZXN0LTIwpw0.m3u8
