@@ -5,26 +5,16 @@ https://intergalactic.tv/live/smil:mtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Cybernetic Broadcasting System" tvg-logo="https://intergalactic.fm/sites/default/files/styles/thumbnail/public/2023-07/cbs.png", Cybernetic Broadcasting System 
 https://intergalactic.tv/live/smil:cbstv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Radio Nul" tvg-logo="https://www.intergalactic.fm/sites/default/files/styles/wide/public/2023-09/intergalactic%20fm.png", Radio Nul
-https://intergalactic.tv/show/smil:radionul.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Magic Waves" tvg-logo="https://www.intergalactic.fm/sites/default/files/styles/wide/public/2023-09/intergalactic%20fm.png", Magic Waves
-https://intergalactic.tv/show/smil:mw.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="RetroStrange TV" tvg-logo="https://retrostrange.com/wp-content/uploads/2021/01/cropped-RS-MINI-ALT.png", RetroStrange TV
 https://live.retrostrange.com/hls/stream.m3u8
-
-#EXTINF:-1 tvg-name="Classic TV Cube" tvg-logo="https://owncast.funcube.space/logo", Classic TV Cube
-https://owncast.funcube.space/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/5600de87-8cb3-4dea-92cf-0444252535ba/0.m3u8
 
-#EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
-https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-
 #EXTINF:-1 tvg-name="BBC 6 Music" tvg-logo="https://e7.pngegg.com/pngimages/972/242/png-clipart-bbc-radio-6-music-logo-radio-logos.png", BBC 6 Music
-https://lsn.lv/bbcradio.m3u8?station=bbc_6music%22&bitrate=320000%22
+http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8
 
+#EXTINF:-1 tvg-name="Soma FM Groove Salad" tvg-logo="https://api.somafm.com/logos/256/groovesalad256.png", Soma FM Groove Salad
+https://hls.somafm.com/hls/groovesalad/320k/program.m3u8
 #EXTINF:-1 tvg-name="EXP TV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-300x300.png", EXP TV
-https://euc12.playlist.ttvnw.net/v1/playlist/CsgEDXO_ViBpCnFs-qYzNa3jobS1Zqsf2E8DYxMmJyPEUJMDAz3JfVyVrrXnC3Fea2hpHsYCXCtVhLwWmtUQaLi6owJH2BRGiCFgKu5k76ouuFCVdj9JHIYHCOeVzbZ4M4yd3Ordk58SoAuhhVNydhKHiJQJ2_B1x8xq5-QOiYHRGEpSRpLmCb5f_KWPVoNukQdLxPM_QGKnz3pm_osgxofOKNQ74K3_SAAR4tEkf5LaaSjR5Pd5RN-2UFeRN9qrkHBVHbTeCpRkOPI3U-rKl_zfAx6l-I_9WLtv_LPzqd-d2VZNL0-TLk08T-rrRLiAwGbqvbPcMKxAe1yUNpOcaGebuyl3RHjUGX0lzW759_qLPOVFl_84ZnMAKDjdJAdVaPmkgtBLXs_-_WqJnbILvKeKjxI0Z0ADRvhxKCTcvrpNQJeX5kJZ0euw9ep-RMkNilBa9yd-6Pr504Epk9rpjgnFcPqIojfXnz_2WmJk1rM4ed0cosh0zxTYQk2MP5_YV-ziWN9oIzapbrUORsjBcIZ6mKQI2SNhb-MeQRtrui6pALfubSvTXR8Gzjg8Lp2L4hPSMiFtVe2y98g8zsxXSDqEa0wcI5pE4T7xOm6dorXyXf2rU9mZp3cFOkn595y1nSO8SVHaeyPu76ZELi2S0y6ynXvyD_EGFrIbo8CpKiEBB_VC3Q9h6JZTcCtModalgqgyIvdYFBLRYklihpRZaGTCC0IvjJCas-5j87xjDvKz14X2zsFs3c8QpyT6vvUXbPEtvSrgFZokffMaDBv1_j2HGtqxJW4MViABKglldS13ZXN0LTIwpw0.m3u8
+https://eus21.playlist.ttvnw.net/v1/playlist/CsME0RoJ4sH8Zq6LyuZGmdUx_b1EKnM6nRM4L6ZkBjvsLP_ESCrzpmb3amKB9wTnEkJ_lwPokEyl9arOwFVY9gVw_sZqXLdGqT15vhHv4YYgnnG02Zsuv7j7sIaB6kaY4R1MkSj5Lhs6GBk5BTl0pH9dvBj8_Evhhb7In0UXtdvnhlBE8Lqy2Ji6_RBosXlGx4jxeEcZO4SC8k0jppc20FSaEyyGywSni8bFlJJ9U5tipeO-loMvI9lfo3cHTWtMHA09SpcbYqTTBDgeMlMuvAnR9CiarZiVRuyTTQ2Kb5Wdryc2YvQwNj3hAIHDaLPhzUsAUoXFr4nO8VGmex36u-mNul0uMPtCyxbE2G9BSnn3pHv69-sJM4gOB79IdUEcuTegFPErI3jI9s3EbqXjBBi4ZXjT7WRT8KEAOmwB6fNW92oK-L4DREZwy7jJkMDiRfa4qs2FYMaV4wzw4_J8IYKIzOjGKx-zmoty4BMJJte05Xcdcd9Li39Uwp0eOriffPU7jL8QZ3t-ugzaoNggLUe9HnYnBpzGmliQw9epObCmH03XFoj0kYhuLX49w8QkrZU6mEuAi_JL2py99DeYxDo3gxJkQ5XgPvjavkuICy6soq2hyCuLjgJXAIT4cTSiziYjaOLsY9iUhk-VZ8G2WJIm652y_UxcaAnKZ19RqAgh884ip6IRtDi0ncceJ6aTgJbdBk1id2wdsiPoxCS7zzGlexbhM3s4swU3ZMT6bRBjLUnKE8UguAjVQ8iw_Xp7AIx6PMKLGgy8m0xIP908BsAgbxsgASoJZXUtd2VzdC0yMKcN.m3u8
