@@ -5,23 +5,11 @@ https://intergalactic.tv/live/smil:mtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Cybernetic Broadcasting System" tvg-logo="https://intergalactic.fm/sites/default/files/styles/thumbnail/public/2023-07/cbs.png", Cybernetic Broadcasting System 
 https://intergalactic.tv/live/smil:cbstv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Radio Nul" tvg-logo="https://www.intergalactic.fm/sites/default/files/styles/wide/public/2023-09/intergalactic%20fm.png", Radio Nul
-https://intergalactic.tv/show/smil:radionul.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Magic Waves" tvg-logo="https://www.intergalactic.fm/sites/default/files/styles/wide/public/2023-09/intergalactic%20fm.png", Magic Waves
-https://intergalactic.tv/show/smil:mw.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="RetroStrange TV" tvg-logo="https://retrostrange.com/wp-content/uploads/2021/01/cropped-RS-MINI-ALT.png", RetroStrange TV
 https://live.retrostrange.com/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="Classic TV Cube" tvg-logo="https://owncast.funcube.space/logo", Classic TV Cube
-https://owncast.funcube.space/hls/stream.m3u8
-
 #EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
 https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/5600de87-8cb3-4dea-92cf-0444252535ba/0.m3u8
-
-#EXTINF:-1 tvg-name="TVS Classic Sports" tvg-logo="https://www.watchyour.tv/epg/channellogos/tvs-classic-sports.png", TVS Classic Sports
-https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 
 #EXTINF:-1 tvg-name="BBC 6 Music" tvg-logo="https://e7.pngegg.com/pngimages/972/242/png-clipart-bbc-radio-6-music-logo-radio-logos.png", BBC 6 Music
 https://lsn.lv/bbcradio.m3u8?station=bbc_6music%22&bitrate=320000%22
