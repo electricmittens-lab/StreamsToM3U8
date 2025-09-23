@@ -1,128 +1,410 @@
-#EXTM3U x-tvg-url="https://epg.starlite.best/utc.xml.gz"
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k1_mRYQG-HAspwbSjYcshWT6yECtfxdmfmCfIchUZsWHB9=s900-c-k-c0x00ffffff-no-rj", ABC (WABC) New York, NY
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d0f3fe2a1ee045cb3b13.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/2CBA0D4D-8829-4B49-A7E4-F48AA2E1A144/3-1x1.png/900", CBS (WCBS) New York, NY
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d104c299e9d4d4fc2c97.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", NBC (WNBC) New York, NY
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d15b2da0dfb20f8a3a02.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/670948-11866496-10153650237726320-9875-180x180.png", FOX (WNYW) New York, NY
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d12dfe2a1ee045cb3b1e.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Disney channel
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6844abbef2093c5f9168b3cd.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/1200px-2015_Disney_XD_logo.svg.png", Disney XD USA Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d1142da0dfb20f8a39f8.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Nick jr
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6844ad5c2fc69b6eda6f581a.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Nicktoons East
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d166deeec70abb6b1364.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", TeenNick Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d17cdeeec70abb6b1366.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.pikpng.com/pngl/m/11-113493_cbs-eye-logo-png-clipart-cbs-eye-logo.png", CBS News 247
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6891faec99515003650f40af.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/250px-CNN_International_logo.svg.png", CNN
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/681c98513f3fe66ffedb6abe.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/250px-CNN_International_logo.svg.png", CNN (International)
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/681d8980e168f3fa2e0ef249.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/db/CNBC_2023.svg", CNBC USA
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d109c299e9d4d4fc2c98.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp4k5HDqeQTcNa6noTFcATSaxkv-V8g83MBg&s", Fox Business
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/681c9dbd3f3fe66ffedb6ac0.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://hugh.cdn.rumble.cloud/video/z8/-/P/J/j/-PJja.baa.2-FoxNewsLive24-skr4k3.jpeg", Fox News 24-7
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/68bb2979bc8e55d77f476ad6.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nxfAGf2WYRHqMTgrScAVCAKN4ZHqwY89Z_5KirrVNsQTmi=s900-c-k-c0x00ffffff-no-rj", BBC News
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6834bf23e1839196d9bf3b61.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://play-lh.googleusercontent.com/R8Bgl60N7sIT4-o7oIm3SnZRrddAlCyciIu3CncQU_jHZWrDq2TfsFP7_BGNEKPgqZw", A&E US Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d00732e1593dc38371e9.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HEK9Qf0xUDlwywe_8gy6sAD5zjGtflo6aA&s", amc
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6828648e153f74a839110ea3.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/34/AMC_logo_2019.svg", AMC Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d0f6fe2a1ee045cb3b14.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static1.srcdn.com/wordpress/wp-content/uploads/2025/05/american-heroes-channel.png", American Heroes Channel
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d0f7c299e9d4d4fc2c95.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/2018_Animal_Planet_logo.svg", Animal Planet
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/682872c73e7a11704383e30f.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPS83MVlm2H7LmooFD8Q9RPgxtRftr325-w&s", Bravo USA Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d100deeec70abb6b1356.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/CMT_2017_logo.svg/1200px-CMT_2017_logo.svg.png", CMT US Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d10844af2ce49b973914.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12lR-WE83C25K-g6lXJAWNe1dSC5RwqPGWvF1jmbdsVedCdWQBSGOyEy2F2hVP6RMowM&usqp=CAU", Comedy Central (US) Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d10bc299e9d4d4fc2c99.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", The Cooking Channel
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d17e5d21554d2dbf725a.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Destination_America_logo.svg/1200px-Destination_America_logo.svg.png", Destination America
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d10ee5508a7485d4f1a1.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToWIFOm3JQWB0dtfuvsIZui_-LkTGrllMUbw&s", Discovery Channel
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/68286a45153f74a839110ea5.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://banner2.cleanpng.com/20180802/teo/kisspng-logo-product-design-brand-discovery-channel-green-watch-tv-everywhere-5b638a42cc6647.8986147115332501148372.jpg", Discovery Family Channel
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d110deeec70abb6b1359.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://yt3.googleusercontent.com/5dENunTd9mqCTygK6W2EBKC7aWW_v4odPBFVikDFIXvGJXv8wpiTdQycysr9P4cyzBjAnXkwZA=s900-c-k-c0x00ffffff-no-rj", E! Entertainment USA Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d115fe2a1ee045cb3b18.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.filmon.com/assets/channels/20/extra_big_logo.png", Food Network
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/683c24647cb3c805d3761220.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.vhv.rs/dpng/d/553-5538230_freeform-freeform-logo-png-transparent-png.png", Freeform East Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d132deeec70abb6b135c.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Fuse_Black_Logo_2017.png", FUSE TV Eastern feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d133c299e9d4d4fc2c9c.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://capitalgroupenterprises.com/wp-content/uploads/2025/01/FX-Movie-Channel.png", FX Movie Channel
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d134deeec70abb6b135d.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/33/FX_Networks_logo.svg", FX Networks East Coast
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d135deeec70abb6b135e.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/FXX_Logo.svg", FXX USA Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d136c299e9d4d4fc2c9d.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://mms.businesswire.com/media/20250403760814/en/2428687/4/Hallmark_Media_Logo_prlp.jpg", Hallmark Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d139deeec70abb6b135f.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png", HGTV
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/68286acc26bd40a2e2746f9c.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg", History Channel
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6828729926bd40a2e2746f9d.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static1.srcdn.com/wordpress/wp-content/uploads/2025/05/lifetime.png", Lifetime Network US Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d1482da0dfb20f8a3a00.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0OzzuSvsYYScy0jirPhvG4hYvkYCOo6CIw&s", Lifetime Movies East
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d14744af2ce49b97391b.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Motor Trend HD
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d150e5508a7485d4f1ab.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", MTV USA Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d156deeec70abb6b1363.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", National Geographic US Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d157c299e9d4d4fc2ca2.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Oprah Winfrey Network USA Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d1665d21554d2dbf7257.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", SundanceTV USA East
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d17a32e1593dc38371f5.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Syfy Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d17b32e1593dc38371f6.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", TBS East
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d17bdc1dfbc7e71a6611.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", TLC USA Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d18132e1593dc38371f7.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", TNT Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d18332e1593dc38371f8.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Travel US East
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d184dc1dfbc7e71a6612.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", TV Land Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d18b5d21554d2dbf725d.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/teleup/content/common/logos/channel/logos/usa-network.png", USA Network East Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d18fdeeec70abb6b1369.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://images.squarespace-cdn.com/content/v1/509ac5d5e4b011ec8327ecea/1512075367070-OQVD2P1C3DPZIZ2G8E99/cinemax-01.png", Cinemax Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d1075d21554d2dbf7248.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://orgoglionerd.it/wp-content/uploads/2023/08/hbo_logo_icon_181389.png", HBO Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d13ce5508a7485d4f1a8.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.directhd.tv/wp-content/uploads/channels/200x200/logo_hbo_2_east_small.gif", HBO 2 Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d13d44af2ce49b973919.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcjrSu3IowauY0-2dRG94a_3wSNHWTWNbOcQ&s", HBO Comedy HD East
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d13e5d21554d2dbf724f.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.directhd.tv/wp-content/uploads/channels/200x200/logo_hbo_family_small.gif", HBO Family Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d13f32e1593dc38371ee.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/HBO_Zone_logo.png", HBO Zone HD East
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d1415d21554d2dbf7250.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MGM%2B_logo.svg/2560px-MGM%2B_logo.svg.png", MGM+
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/682862c526bd40a2e2746f9b.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Showtime Eastern Feed
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d16d2da0dfb20f8a3a07.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Showtime 2 Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d16e5d21554d2dbf7258.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://static.vecteezy.com/system/resources/previews/008/687/836/non_2x/moose-deer-logo-free-vector.jpg", Starz Eastern
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d179c299e9d4d4fc2ca6.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://theacc.com/images/2019/8/14/19_20_GEN_ACCN_Announcement_V2.png?preset=large.storyimage", ACC Network
-https://api.m3use.projectmoose.xyz/m3u/Nostradamus/The Sexy Beast Faux CableTV Channel Set/6852d0f4deeec70abb6b1354.m3u8?uid=countdorkula&pkey=045609
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://pbs.twimg.com/profile_images/135
+#EXTM3U
+
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.telegraph.co.uk/multimedia/archive/01158/portal-graphics-20_1158055a.jpg", Quite Interesting
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_quiteinteresting2.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://ih1.redbubble.net/image.5682676572.3469/st,small,507x507-pad,600x600,f8f8f8.jpg", Wrestling Fanatic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_fanatichd29.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.vhv.rs/dpng/d/484-4849854_undertaker-wwe-wcw-big-gold-title-championship-belt.png", Golden Age of Pro Wrestling
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_jetmetalman.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758373399/garystrainlive.jpg", Gary's Train Live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_garystrainlive.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1755951957/rhapsody_rad1o.jpg", rhapsody_rad1o
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_rhapsody_rad1o.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1755961495/ozmusic.jpg", ozmusic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_ozmusic.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756142687/bobbymagicradio2.jpg", BobbyMagicRadio2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_bobbymagicradio2.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGRk3UgE82hrRYP3kMr9Jp2Yz142L7iks_A&s", Game center CX
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_hawk7713.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756850450/erobtv.jpg", Erob tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_erobtv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758372855/alwaysonanime.jpg", AlwaysOnAnime
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_alwaysonanime.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295270/animationnation.jpg", Animation Nation
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_animationnation.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299049/bellpeppersandbeef.jpg", Anime 24-7-365
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_bellpeppersandbeef.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298473/cartoonchannelph.jpg", Cartoon Channel PH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoonchannelph.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295338/cartoondystopia.jpg", CartoonDystopia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoondystopia.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1755954989/cnclassic.jpg", Cartoon Network Classic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_cnclassic.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299222/dollabillz69.jpg", CAVETV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_dollabillz69.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758372810/daikaijutv.jpg", Daikaiju TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_daikaijutv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298533/eel_ch.jpg", Eel Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_eel_ch.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292500/geeklemonades.jpg", Geek Lemonade
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_geeklemonades.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758284844/thisiscooltv.jpg", Ghost Town
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_thisiscooltv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz16PIUObZclcTKLoZlzK6DnMR8Z3r819oqQ&s", Halloween247
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_0_halloween247.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758372909/htvnetworkph.jpg", HTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_htvnetworkph.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291814/kartera_toons.jpg", Kartera Toons
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_toons.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296585/krazykaz.jpg", Krazykaz TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_krazykaz.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758284946/starmoontv.jpg", Magical TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_starmoontv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854707/nickpicks.jpg", Nick picks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_nickpicks.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285492/nicktoonstv.jpg", Nicktoons TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_nicktoonstv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://yt3.googleusercontent.com/PQ4-0skFIjYDATNr8uuXPsdPDhRfVlvZM-jzvEvsf780eb9RJr7oaRT7a5O0PZ--F1CplAv3HA=s900-c-k-c0x00ffffff-no-rj", Nostalgia TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_0a_nostalgiatv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299614/pdtelevision.jpg", Public Domain Television
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_pdtelevision.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285682/macmax2931.jpg", Shonen Community TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_macmax2931.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285073/sparktv.jpg", Spark TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_sparktv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297225/stop_watch.jpg", Stop Watch
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_stop_watch.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285990/tavernplayhouse.jpg", Tavern PlayHouse
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_tavernplayhouse.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854913/thatsodisney.jpg", That's so Disney
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_thatsodisney.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296302/toonamiclassic.jpg", Toonami Classic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_toonamiclassic.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294144/duckyisback.jpg", Justice League 24-7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_duckyisback.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291448/ricardoandmortimer.jpg", Rick and Morty 24-7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_ricardoandmortimer.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290667/celestialgliding.jpg", South Park
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_celestialgliding.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756852558/crab.jpg", Family guy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_crab.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/1200px-The_Simpsons_yellow_logo.svg.png", LOS SIMPSON
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_simpson_maniahd193.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290736/7_stars.jpg", 7 Stars Documentaries
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_7_stars.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292418/bob_420.jpg", Ancient Aliens
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_bob_420.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295494/12112.jpg", Cops 24-7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_12112.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294004/crime_patrol.jpg", Crime Patrol
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_crime_patrol.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291590/discoveryhouse4.jpg", DiscoveryHouse Documentaries
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_discoveryhouse4.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293535/goldrrrush.jpg", Gold Rush
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_goldrrrush.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293937/kartera_1.jpg", Kartera 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_1.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296409/kartera_fantasy.jpg", Kartera Nature
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_nature.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758372779/the_paranormal.jpg", The Paranormal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_the_paranormal.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299424/michael_paranormal.jpg", UFOs & Ghosts Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_michael_paranormal.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291727/somenut.jpg", All Kinds of Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_somenut.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298155/altplanes3001.jpg", Arctic Tavern
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_altplanes3001.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315746/atlantis_movies.jpg", Atlantis Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis_movies.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756855572/docbrown1.jpg", Back to the 80s
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_docbrown1.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758284716/basedmovies.jpg", BasedMovies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_basedmovies.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294504/flankbeefsteak2.jpg", BSTVLive! The Station
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_flankbeefsteak2.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758286278/bud316.jpg", Bud316 Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_bud316.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290840/chillertheatre.jpg", ChillerTheatre
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_chillertheatre.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291513/panky.jpg", Classic SciFi Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_panky.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293803/dankcinema.jpg", DankCinema
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_dankcinema.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756850219/everythinghorror.jpg", Every thing horror
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_everythinghorror.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756853753/e_h_plus.jpg", Every thing horror 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_e_h_plus.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292233/glmovies.jpg", Geek Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_glmovies.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296911/jetmetalmanv2.jpg", JetMetalManV2 Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_jetmetalmanv2.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296409/kartera_fantasy.jpg", Kartera Fantasy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_fantasy.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296025/movie_monkey.jpg", Movie Monkey
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_movie_monkey.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291147/ninja_gaiden.jpg", Movies and flicks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_ninja_gaiden.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297169/randomvideos.jpg", RandomVideos Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_randomvideos.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291970/rubberchickens2.jpg", RubberChickens2 Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_rubberchickens2.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299708/smoketheherb.jpg", Smoketheherb Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_smoketheherb.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296142/taverncellar.jpg", Tavern Cellar
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_taverncellar.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298919/timewarptv.jpg", TimeWarpTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_timewarptv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291901/juice_newton1.jpg", TV Shows & Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_juice_newton1.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293641/space_hog.jpg", Space Hog TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_space_hog.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292361/bingetv.jpg", BingeTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_bingetv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297406/channel_cinco.jpg", Channel Cinco
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_channel_cinco.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293435/megafanatic.jpg", MegaFanatic TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_megafanatic.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296080/oasf.jpg", Old 4SS SCi-Fi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_oasf.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299503/oldiesatnite.jpg", Oldies At Nite
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_oldiesatnite.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295795/postapocalyptictv.jpg", Post-Apocalyptic TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_postapocalyptictv.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297832/shibby04.jpg", Shibby's Digital Vault
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_shibby04.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758286058/somethingrandom.jpg", SomethingRandom TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_somethingrandom.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295897/80z.jpg", 80s TV Shows
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_80z.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315636/atlantis7.jpg", British Sitcoms
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis7.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293865/hanky_panky.jpg", Classic SciFi Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_hanky_panky.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294647/gypsy2.jpg", Crime TV Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy2.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758314099/atlantis8.jpg", SciFi TV Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis8.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758314856/atlantis5.jpg", SciFi & Action TV Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis5.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315103/atlantisrising.jpg", SciFi & Drama TV Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantisrising.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758314488/atlantis1.jpg", SciFi & Sitcom TV Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis1.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315818/atlantis6.jpg", Supernatural & Comedy TV Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis6.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294844/gypsy3.jpg", Spy TV Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy3.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756851218/asip.jpg", Always sunny in Philly
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_asip.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298074/4rrdev.jpg", Arrested Development
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_4rrdev.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285823/bin52201893.jpg", Arrow 24-7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_bin52201893.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="data:image/jpeg;base64,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", Becker
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_b3ck3r.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295736/brkln99.jpg", Brooklyn Nine-Nine
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_brkln99.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295026/w3ndt.jpg", Cheers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_w3ndt.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756850993/shamahwayadah.jpg", Columbo 24-7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_shamahwayadah.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854161/c0mmun1ty.jpg", Community
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_c0mmun1ty.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298639/kithfan.jpg", Corner Gas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kithfan.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="data:image/jpeg;base64,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", Curb your enthusiasm
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_curbye.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285902/zoopoop.jpg", Deadwood
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_zoopoop.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315342/atlantis2.jpg", Doctor Who Classic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis2.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297586/just_the_doctor.jpg", Doctor Who 2005
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_just_the_doctor.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295401/elray.jpg", Everybody Loves Raymond
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_elray.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296837/farscape_escape.jpg", Farscape
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_farscape_escape.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296487/kazman.jpg", Fawlty Towers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kazman.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294582/goldenvariety.jpg", Golden Variety Network
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_goldenvariety.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297914/tims_grunt.jpg", Home Improvement
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_tims_grunt.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294442/kartera_himym.jpg", How I Met Your Mother
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_himym.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296743/svu.jpg", Law and Order
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_svu.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297713/m4gnum.jpg", Magnum, P.I.
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_m4gnum.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="data:image/png;base64,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", Married with children
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_mwc.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297642/m_4_s_h.jpg", M_a_s_h
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_m_4_s_h.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295963/e4rl.jpg", My Name Is Earl
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_e4rl.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294783/gypsy1.jpg", NCIS 24-7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy1.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299370/kbhrnorth.jpg", Northern Exposure
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kbhrnorth.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297090/nypdhillz.jpg", NYPD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_nypdhillz.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756851922/parknrcrtn.jpg", Parks n Recreation
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_parknrcrtn.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298724/scrbz.jpg", Scrubs
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_scrbz.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290918/kavorka.jpg", Seinfeld
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kavorka.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292711/zooracer.jpg", Sopranos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_zooracer.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297496/gypsy_leathers.jpg", Space - Above And Beyond
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy_leathers.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292090/atlantis4.jpg", Stargate SG-1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis4.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315574/atlantis3.jpg", Stargate Atlantis & Universe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis3.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292607/theoriginalseries.jpg", Star Trek The Original Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_theoriginalseries.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296371/doubled11.jpg", Supernatural 24-7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_doubled11.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290577/tbbtz.jpg", The Big Bang Theory
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_tbbtz.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291234/kofq.jpg", The King of Queens
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_kofq.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTAxiUXKcXJUzSFygYJ0uqjufPe-Y6JvCPBA&s", The Office
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_0ff1c3.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298854/theouterlimits.jpg", The Outer Limits
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_theouterlimits.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298001/w1r3.jpg", The Wire
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_w1r3.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756851521/secureteam10.jpg", The X files
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_secureteam10.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297777/mdufres1.jpg", Trailer Park Boys
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_mdufres1.flv
+#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291308/ashtonless.jpg", Two and a Half Men
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
+https://stream-cdn-iad3.vaughnsoft.net/play/live_ashtonless.flv
