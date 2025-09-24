@@ -1,3 +1,12 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="exptv" tvg-name="EXPTV", EXPTV (offline)
-https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4
+#EXTM3U 
+#EXTINF:-1 tvg-name="Murdercapital TV" tvg-logo="https://intergalactic.fm/sites/default/files/styles/wide/public/2023-11/MCTV.512.png", Murdercapital TV
+https://intergalactic.tv/live/smil:mtv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Cybernetic Broadcasting System" tvg-logo="https://intergalactic.fm/sites/default/files/styles/thumbnail/public/2023-07/cbs.png", Cybernetic Broadcasting System 
+https://intergalactic.tv/live/smil:cbstv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RetroStrange TV" tvg-logo="https://retrostrange.com/wp-content/uploads/2021/01/cropped-RS-MINI-ALT.png", RetroStrange TV
+https://live.retrostrange.com/hls/stream.m3u8
+
+#EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo-1024x640.png", Wu Tang Collection
+https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/5600de87-8cb3-4dea-92cf-0444252535ba/0.m3u8
