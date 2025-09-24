@@ -2,8 +2,8 @@ name: EXPTV Grabber
 
 on:
   schedule:
-    - cron: "0 * * * *"   # run every hour on the hour
-  workflow_dispatch:        # allow manual trigger from Actions tab
+    - cron: "0 * * * *"   # run every hour, on the hour
+  workflow_dispatch:        # allow manual run from Actions tab
 
 jobs:
   run:
@@ -20,12 +20,16 @@ jobs:
       - name: Run grabber
         run: |
           python3 grabber.py
+          echo "Contents of working directory:"
+          ls -l   # confirm exp.m3u and exp.xml exist
+          echo "Preview of exp.m3u:"
+          head -n 5 exp.m3u || true
 
       - name: Commit & push changes
         run: |
           git config --global user.email "dp247@hll.localhost"
           git config --global user.name "dp247"
           git add -A
-          git commit -m "Update EXPTV playlist & EPG" || echo "No changes to commit"
+          git commit -m "Update EXPTV playlist & EPG at $(date -u)" || echo "No changes to commit"
           git pull --rebase origin main || true
           git push || true
