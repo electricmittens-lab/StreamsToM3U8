@@ -1,0 +1,31 @@
+name: EXPTV Grabber
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # run every hour on the hour
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run grabber
+        run: |
+          python3 grabber.py
+
+      - name: Commit & push changes
+        run: |
+          git config --global user.email "dp247@hll.localhost"
+          git config --global user.name "dp247"
+          git add -A
+          git commit -m "Update EXPTV playlist & EPG" || echo "No changes"
+          git pull --rebase origin main || true
+          git push || true
