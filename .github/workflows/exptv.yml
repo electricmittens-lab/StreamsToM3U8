@@ -21,7 +21,7 @@ jobs:
         run: |
           python3 grabber.py
           echo "Contents of working directory:"
-          ls -l   # confirm exp.m3u and exp.xml exist
+          ls -l
           echo "Preview of exp.m3u:"
           head -n 5 exp.m3u || true
 
