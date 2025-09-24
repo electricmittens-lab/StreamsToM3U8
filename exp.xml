@@ -1,5 +1,6 @@
 <tv>
   <channel id="exptv">
     <display-name>EXPTV</display-name>
+    <icon src="logo.png"/>
   </channel>
 </tv>
