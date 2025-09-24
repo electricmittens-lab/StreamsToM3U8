@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import requests
-from bs4 import BeautifulSoup
+import re
 from lxml import etree
 from datetime import datetime, timedelta
 import pytz
@@ -9,60 +9,40 @@ import pytz
 OUTPUT_M3U = "exp.m3u"
 OUTPUT_XML = "exp.xml"
 OFFLINE_FALLBACK = "https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4"
-EXPTV_URL = "https://exptv.org"
 EXPTV_LOGO = "logo.png"
-TIMEZONE = pytz.timezone("America/Chicago")  # adjust if needed
+TIMEZONE = pytz.timezone("America/Chicago")
 # --------------------------
 
 # -------- Grab EXPTV stream --------
 def grab_exptv():
     try:
-        r = requests.get(EXPTV_URL, timeout=10)
+        r = requests.get("https://exptv.org/js/main.js", timeout=10)
         r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        # Prefer the <source id="mp4_src">
-        tag = soup.find("source", {"id": "mp4_src"})
-        if not tag or not tag.has_attr("src"):
-            # Fallback: grab any <source type="video/mp4">
-            tag = soup.find("source", {"type": "video/mp4"})
-
-        if not tag or not tag.has_attr("src"):
-            print("⚠️ Could not find EXPTV <source> tag, using fallback.")
-            return OFFLINE_FALLBACK
-
-        url = tag["src"].split("#")[0]  # strip off #t= markers
-        print(f"✅ Found EXPTV stream: {url}")
-        return url
-
+        match = re.search(r'content2/([A-Za-z0-9_-]+\.mp4)', r.text)
+        if match:
+            url = f"https://exptv.org/content2/{match.group(1)}"
+            print(f"✅ Found EXPTV stream: {url}")
+            return url
+        print("⚠️ No MP4 found in main.js, using fallback.")
+        return OFFLINE_FALLBACK
     except Exception as e:
         print(f"⚠️ Error grabbing EXPTV: {e}")
         return OFFLINE_FALLBACK
 
-
 # -------- Grab EXPTV schedule (today only) --------
 def grab_schedule():
-    today = datetime.now(TIMEZONE).strftime("%A").lower()  # e.g. "monday"
+    today = datetime.now(TIMEZONE).strftime("%A").lower()
     url = f"https://exptv.org/js/{today}-3.js?v=001"
-
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
-        data = r.text
-
-        import re
-        matches = re.findall(r'\["([^"]+)",\s*"([^"]+)"\]', data)
-
-        schedule = []
-        for t, title in matches:
-            schedule.append((t, title))
+        matches = re.findall(r'\["([^"]+)",\s*"([^"]+)"\]', r.text)
+        schedule = [(t, title) for t, title in matches]
         print(f"✅ Parsed {len(schedule)} EPG entries for {today.capitalize()}")
         return schedule
-
     except Exception as e:
         print(f"⚠️ Could not grab schedule: {e}")
         return []
-
 
 # -------- Write M3U --------
 def write_m3u(stream_url: str):
@@ -72,7 +52,6 @@ def write_m3u(stream_url: str):
         f.write(f'#EXTINF:-1 tvg-id="exptv" tvg-name="EXPTV" tvg-logo="{EXPTV_LOGO}", EXPTV\n')
         f.write(stream_url + "\n")
     print(f"✅ Wrote playlist to {OUTPUT_M3U}")
-
 
 # -------- Write XMLTV --------
 def write_xml(schedule):
@@ -87,12 +66,10 @@ def write_xml(schedule):
 
         for idx, (time_str, title) in enumerate(schedule):
             try:
-                # parse time like "12:00 AM"
                 t = datetime.strptime(time_str, "%I:%M %p").time()
                 start_dt = today.replace(hour=t.hour, minute=t.minute)
                 if idx + 1 < len(schedule):
-                    next_time_str, _ = schedule[idx + 1]
-                    nt = datetime.strptime(next_time_str, "%I:%M %p").time()
+                    nt = datetime.strptime(schedule[idx + 1][0], "%I:%M %p").time()
                     stop_dt = today.replace(hour=nt.hour, minute=nt.minute)
                 else:
                     stop_dt = today + timedelta(days=1)
@@ -102,9 +79,7 @@ def write_xml(schedule):
                 prog.set("start", start_dt.strftime(dt_format))
                 prog.set("stop", stop_dt.strftime(dt_format))
 
-                title_el = etree.SubElement(prog, "title", lang="en")
-                title_el.text = title
-
+                etree.SubElement(prog, "title", lang="en").text = title
             except Exception as e:
                 print(f"⚠️ Failed to parse EPG entry {time_str}, {title}: {e}")
 
@@ -112,7 +87,6 @@ def write_xml(schedule):
     with open(OUTPUT_XML, "wb") as f:
         f.write(xml_bytes)
     print(f"✅ Wrote XMLTV to {OUTPUT_XML}")
-
 
 # -------- Main --------
 if __name__ == "__main__":
