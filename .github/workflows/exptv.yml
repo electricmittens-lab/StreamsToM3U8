@@ -3,7 +3,7 @@ name: EXPTV Grabber
 on:
   schedule:
     - cron: "0 * * * *"   # run every hour on the hour
-  workflow_dispatch:        # allow manual runs from the Actions tab
+  workflow_dispatch:        # allow manual trigger from Actions tab
 
 jobs:
   run:
@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml
+          pip install requests beautifulsoup4 lxml pytz
 
       - name: Run grabber
         run: |
@@ -26,6 +26,6 @@ jobs:
           git config --global user.email "dp247@hll.localhost"
           git config --global user.name "dp247"
           git add -A
-          git commit -m "Update EXPTV playlist & EPG" || echo "No changes"
+          git commit -m "Update EXPTV playlist & EPG" || echo "No changes to commit"
           git pull --rebase origin main || true
           git push || true
