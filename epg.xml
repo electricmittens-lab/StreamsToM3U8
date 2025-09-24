@@ -1,45 +1,45 @@
-<tv generator-info-name="youtube-live-epg" generator-info-url="https://github.com/dp247/YouTubeToM3U8">
-  <channel id="exptv.tt">
-    <display-name lang="en">EXP TV</display-name>
+<tv generator-info-name="m3u-grabber" generator-info-url="https://github.com/electricmittens-lab/StreamsToM3U8">
+  <channel id="exptv">
+    <display-name lang="en">EXPTV</display-name>
   </channel>
-  <programme channel="exptv.tt" start="20250924060000 +0100" stop="20250924090000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250924070000 +0100" stop="20250924100000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924090000 +0100" stop="20250924120000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250924100000 +0100" stop="20250924130000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924120000 +0100" stop="20250924150000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250924130000 +0100" stop="20250924160000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924150000 +0100" stop="20250924180000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250924160000 +0100" stop="20250924190000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924180000 +0100" stop="20250924210000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250924190000 +0100" stop="20250924220000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250924210000 +0100" stop="20250925000000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250924220000 +0100" stop="20250925010000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250925000000 +0100" stop="20250925030000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250925010000 +0100" stop="20250925040000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
-  <programme channel="exptv.tt" start="20250925030000 +0100" stop="20250925060000 +0100">
-    <title lang="en">LIVE: EXP TV</title>
-    <desc lang="en">No description</desc>
-    <icon src="https://static-cdn.jtvnw.net/jtv_user_pictures/2ef161fc-2c34-4c8d-bc59-e0512adf0382-profile_image-600x600.png"/>
+  <programme channel="exptv" start="20250925040000 +0100" stop="20250925070000 +0100">
+    <title lang="en">LIVE: EXPTV</title>
+    <desc lang="en">EXP TVâs daytime block is âVideo Breaksâ--a video collage series featuring wild, rare, unpredictable, and ever-changing archival clips touching on every subject imaginable. The nighttime block starts at 10pm and features specialty themed video mixes and deep dives. In an age where we all waste so much time figuring out what to watch online, EXP TV airs 24/7 and thereâs always something cool on. Stay Tuned.</desc>
+    <icon src="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/logo.png"/>
   </programme>
 </tv>
