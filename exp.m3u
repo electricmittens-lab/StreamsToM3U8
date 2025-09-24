@@ -1,0 +1,3 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/electricmittens-lab/StreamsToM3U8/main/exp.xml"
+#EXTINF:-1 tvg-id="exptv" tvg-name="EXPTV" tvg-logo="logo.png", EXPTV
+https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4
