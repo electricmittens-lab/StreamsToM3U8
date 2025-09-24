@@ -1,37 +1,30 @@
-name: LinkGrabber
+name: EXPTV Grabber
 
 on:
   schedule:
-    # Run every 15 minutes to keep YouTube/Twitch/EXPTV links fresh
-    - cron: '*/15 * * * *'
-
-  workflow_dispatch:  # allow manual run
-  pull_request:
-    branches: [ main ]
+    - cron: "*/15 * * * *"   # every 15 minutes
+  workflow_dispatch:
 
 jobs:
-  runCode:
+  run:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install deps
         run: |
           python3 -m pip install --upgrade pip
-          pip install -U yt-dlp
-          pip install requests lxml pytz beautifulsoup4
+          pip install requests beautifulsoup4
 
       - name: Run grabber
         run: |
-          chmod +x exec_grabber.sh
-          ./exec_grabber.sh
+          python3 grabber.py
 
-      - name: Commit and push updated files
+      - name: Commit & push changes
         run: |
           git config --global user.email "dp247@hll.localhost"
           git config --global user.name "dp247"
           git add -A
-          git commit -m "Playlist updated." || echo "No changes to commit"
+          git commit -m "murdercapital.m3u updated with EXPTV" || echo "No changes"
           git pull --rebase origin main || true
           git push || true
