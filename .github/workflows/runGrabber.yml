@@ -24,4 +24,14 @@ jobs:
 
       - name: Run grabber
         run: |
-          git config --global user.email
+          chmod +x exec_grabber.sh
+          ./exec_grabber.sh
+
+      - name: Commit and push updated files
+        run: |
+          git config --global user.email "dp247@hll.localhost"
+          git config --global user.name "dp247"
+          git add -A
+          git commit -m "Playlist updated." || echo "No changes to commit"
+          git pull --rebase origin main || true
+          git push || true
