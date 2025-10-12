@@ -1,398 +1,264 @@
 #EXTM3U 
 #EXTINF:-1 tvg-name="Murdercapital TV" tvg-logo="https://intergalactic.fm/sites/default/files/styles/wide/public/2023-11/MCTV.512.png", Murdercapital TV
 https://intergalactic.tv/live/smil:mtv.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cybernetic Broadcasting System" tvg-logo="https://intergalactic.fm/sites/default/files/styles/thumbnail/public/2023-07/cbs.png", Cybernetic Broadcasting System 
 https://intergalactic.tv/live/smil:cbstv.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="RetroStrange TV" tvg-logo="https://retrostrange.com/wp-content/uploads/2021/01/cropped-RS-MINI-ALT.png", RetroStrange TV
 https://live.retrostrange.com/hls/stream.m3u8
-
-#EXTINF:-1 tvg-name="Wu Tang Collection" tvg-logo="https://1000logos.net/wp-content/uploads/2019/09/Wu-Tang-Logo.png", Wu Tang Collection
-https://f3d132a0cf124427adeddbe04754de31.mediatailor.us-east-1.amazonaws.com/v1/manifest/6f03f3123e02dbd4771f6f84da21714eef9b7542/WuTangCollection/5600de87-8cb3-4dea-92cf-0444252535ba/0.m3u8
-
 #EXTINF:-1 tvg-name="BBC 6 Music" tvg-logo="https://e7.pngegg.com/pngimages/972/242/png-clipart-bbc-radio-6-music-logo-radio-logos.png", BBC 6 Music
 http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8
-
 #EXTINF:-1 tvg-name="Soma FM Groove Salad" tvg-logo="https://api.somafm.com/logos/256/groovesalad256.png", Soma FM Groove Salad
 https://hls.somafm.com/hls/groovesalad/320k/program.m3u8
-
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.telegraph.co.uk/multimedia/archive/01158/portal-graphics-20_1158055a.jpg", British Quiz Shows
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_quiteinteresting2.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://ih1.redbubble.net/image.5682676572.3469/st,small,507x507-pad,600x600,f8f8f8.jpg", Wrestling Fanatic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_fanatichd29.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://www.vhv.rs/dpng/d/484-4849854_undertaker-wwe-wcw-big-gold-title-championship-belt.png", Golden Age of Pro Wrestling
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_jetmetalman.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758373399/garystrainlive.jpg", Gary's Train Live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_garystrainlive.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756142687/bobbymagicradio2.jpg", BobbyMagicRadio2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_bobbymagicradio2.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGRk3UgE82hrRYP3kMr9Jp2Yz142L7iks_A&s", Game center CX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_hawk7713.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756850450/erobtv.jpg", Erob tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_erobtv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758372855/alwaysonanime.jpg", AlwaysOnAnime
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_alwaysonanime.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295270/animationnation.jpg", Animation Nation
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_animationnation.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299049/bellpeppersandbeef.jpg", Anime 24-7-365
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_bellpeppersandbeef.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295338/cartoondystopia.jpg", CartoonDystopia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoondystopia.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1755954989/cnclassic.jpg", Cartoon Network Classic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_cnclassic.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299222/dollabillz69.jpg", CAVETV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_dollabillz69.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298533/eel_ch.jpg", Eel Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_eel_ch.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292500/geeklemonades.jpg", Geek Lemonade
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_geeklemonades.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758284844/thisiscooltv.jpg", Ghost Town
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_thisiscooltv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz16PIUObZclcTKLoZlzK6DnMR8Z3r819oqQ&s", Halloween247
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_0_halloween247.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291814/kartera_toons.jpg", Kartera Toons
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_toons.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296585/krazykaz.jpg", Krazykaz TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_krazykaz.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758284946/starmoontv.jpg", Magical TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_starmoontv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854707/nickpicks.jpg", Nick picks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_nickpicks.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285492/nicktoonstv.jpg", Nicktoons TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_nicktoonstv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://yt3.googleusercontent.com/PQ4-0skFIjYDATNr8uuXPsdPDhRfVlvZM-jzvEvsf780eb9RJr7oaRT7a5O0PZ--F1CplAv3HA=s900-c-k-c0x00ffffff-no-rj", Nostalgia TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_0a_nostalgiatv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299614/pdtelevision.jpg", Public Domain Television
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_pdtelevision.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285990/tavernplayhouse.jpg", Tavern PlayHouse
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_tavernplayhouse.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854913/thatsodisney.jpg", That's so Disney
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_thatsodisney.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296302/toonamiclassic.jpg", Toonami Classic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_toonamiclassic.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294144/duckyisback.jpg", Justice League 24-7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_duckyisback.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291448/ricardoandmortimer.jpg", Rick and Morty 24-7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_ricardoandmortimer.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290667/celestialgliding.jpg", South Park
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_celestialgliding.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756852558/crab.jpg", Family guy
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_crab.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290736/7_stars.jpg", 7 Stars Documentaries
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_7_stars.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292418/bob_420.jpg", Ancient Aliens
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_bob_420.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295494/12112.jpg", Cops 24-7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_12112.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294004/crime_patrol.jpg", Crime Patrol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_crime_patrol.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291590/discoveryhouse4.jpg", DiscoveryHouse Documentaries
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_discoveryhouse4.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293937/kartera_1.jpg", Kartera 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_1.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296409/kartera_fantasy.jpg", Kartera Nature
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_nature.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758372779/the_paranormal.jpg", The Paranormal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_the_paranormal.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299424/michael_paranormal.jpg", UFOs & Ghosts Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_michael_paranormal.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291727/somenut.jpg", All Kinds of Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_somenut.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298155/altplanes3001.jpg", Arctic Tavern
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_altplanes3001.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315746/atlantis_movies.jpg", Atlantis Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis_movies.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756855572/docbrown1.jpg", Back to the 80s
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_docbrown1.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758284716/basedmovies.jpg", BasedMovies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_basedmovies.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294504/flankbeefsteak2.jpg", BSTVLive! The Station
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_flankbeefsteak2.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758286278/bud316.jpg", Bud316 Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_bud316.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290840/chillertheatre.jpg", ChillerTheatre
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_chillertheatre.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291513/panky.jpg", Classic SciFi Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_panky.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293803/dankcinema.jpg", DankCinema
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_dankcinema.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756850219/everythinghorror.jpg", Every thing horror
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_everythinghorror.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756853753/e_h_plus.jpg", Every thing horror 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_e_h_plus.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292233/glmovies.jpg", Geek Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_glmovies.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296911/jetmetalmanv2.jpg", JetMetalManV2 Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_jetmetalmanv2.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296409/kartera_fantasy.jpg", Kartera Fantasy
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_fantasy.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296025/movie_monkey.jpg", Movie Monkey
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_movie_monkey.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291147/ninja_gaiden.jpg", Movies and flicks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_ninja_gaiden.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297169/randomvideos.jpg", RandomVideos Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_randomvideos.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291970/rubberchickens2.jpg", RubberChickens2 Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_rubberchickens2.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299708/smoketheherb.jpg", Smoketheherb Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_smoketheherb.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296142/taverncellar.jpg", Tavern Cellar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_taverncellar.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298919/timewarptv.jpg", TimeWarpTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_timewarptv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291901/juice_newton1.jpg", TV Shows & Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_juice_newton1.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293641/space_hog.jpg", Space Hog TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_space_hog.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292361/bingetv.jpg", BingeTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_bingetv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297406/channel_cinco.jpg", Channel Cinco
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_channel_cinco.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293435/megafanatic.jpg", MegaFanatic TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_megafanatic.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296080/oasf.jpg", Old 4SS SCi-Fi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_oasf.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299503/oldiesatnite.jpg", Oldies At Nite
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_oldiesatnite.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295795/postapocalyptictv.jpg", Post-Apocalyptic TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_postapocalyptictv.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297832/shibby04.jpg", Shibby's Digital Vault
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_shibby04.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758286058/somethingrandom.jpg", SomethingRandom TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_somethingrandom.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295897/80z.jpg", 80s TV Shows
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_80z.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315636/atlantis7.jpg", British Sitcoms
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis7.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758293865/hanky_panky.jpg", Classic SciFi Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_hanky_panky.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294647/gypsy2.jpg", Crime TV Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy2.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758314099/atlantis8.jpg", SciFi TV Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis8.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758314856/atlantis5.jpg", SciFi & Action TV Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis5.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315103/atlantisrising.jpg", SciFi & Drama TV Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantisrising.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758314488/atlantis1.jpg", SciFi & Sitcom TV Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis1.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315818/atlantis6.jpg", Supernatural & Comedy TV Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis6.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294844/gypsy3.jpg", Spy TV Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy3.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756851218/asip.jpg", Always sunny in Philly
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_asip.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298074/4rrdev.jpg", Arrested Development
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_4rrdev.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285823/bin52201893.jpg", Arrow 24-7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_bin52201893.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="", Becker
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_b3ck3r.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295736/brkln99.jpg", Brooklyn Nine-Nine
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_brkln99.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295026/w3ndt.jpg", Cheers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_w3ndt.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756850993/shamahwayadah.jpg", Columbo 24-7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_shamahwayadah.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756854161/c0mmun1ty.jpg", Community
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_c0mmun1ty.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298639/kithfan.jpg", Corner Gas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kithfan.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="", Curb your enthusiasm
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_curbye.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758285902/zoopoop.jpg", Deadwood
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_zoopoop.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315342/atlantis2.jpg", Doctor Who Classic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis2.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297586/just_the_doctor.jpg", Doctor Who 2005
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_just_the_doctor.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295401/elray.jpg", Everybody Loves Raymond
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_elray.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296837/farscape_escape.jpg", Farscape
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_farscape_escape.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296487/kazman.jpg", Fawlty Towers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kazman.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294582/goldenvariety.jpg", Golden Variety Network
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_goldenvariety.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297914/tims_grunt.jpg", Home Improvement
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_tims_grunt.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294442/kartera_himym.jpg", How I Met Your Mother
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kartera_himym.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296743/svu.jpg", Law and Order
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_svu.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297713/m4gnum.jpg", Magnum, P.I.
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_m4gnum.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="", Married with children
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_mwc.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297642/m_4_s_h.jpg", M_a_s_h
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_m_4_s_h.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758295963/e4rl.jpg", My Name Is Earl
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_e4rl.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758294783/gypsy1.jpg", NCIS 24-7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy1.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758299370/kbhrnorth.jpg", Northern Exposure
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kbhrnorth.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297090/nypdhillz.jpg", NYPD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_nypdhillz.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756851922/parknrcrtn.jpg", Parks n Recreation
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_parknrcrtn.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298724/scrbz.jpg", Scrubs
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_scrbz.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290918/kavorka.jpg", Seinfeld
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kavorka.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292711/zooracer.jpg", Sopranos
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_zooracer.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297496/gypsy_leathers.jpg", Space - Above And Beyond
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_gypsy_leathers.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292090/atlantis4.jpg", Stargate SG-1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis4.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758315574/atlantis3.jpg", Stargate Atlantis & Universe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_atlantis3.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758292607/theoriginalseries.jpg", Star Trek The Original Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_theoriginalseries.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758296371/doubled11.jpg", Supernatural 24-7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_doubled11.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758290577/tbbtz.jpg", The Big Bang Theory
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_tbbtz.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291234/kofq.jpg", The King of Queens
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_kofq.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTAxiUXKcXJUzSFygYJ0uqjufPe-Y6JvCPBA&s", The Office
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_0ff1c3.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298854/theouterlimits.jpg", The Outer Limits
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_theouterlimits.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758298001/w1r3.jpg", The Wire
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_w1r3.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1756851521/secureteam10.jpg", The X files
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_secureteam10.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758297777/mdufres1.jpg", Trailer Park Boys
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_mdufres1.flv
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://cdn.vaughnsoft.net/profile/1758291308/ashtonless.jpg", Two and a Half Men
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0
 https://stream-cdn-iad3.vaughnsoft.net/play/live_ashtonless.flv
 
